@@ -1,0 +1,2018 @@
+<!DOCTYPE html>
+<html lang="uk" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SolarLine — Сонячні електростанції «під ключ» для дому та бізнесу</title>
+  <meta property="og:type" content="website"><meta property="og:title" content="SolarLine — Сонячні електростанції «під ключ»"><meta property="og:description" content="Проєктуємо та монтуємо сонячні електростанції з акумуляторним резервом для дому та бізнесу."><meta property="og:image" content="https://res.cloudinary.com/zzfwn8ye/image/upload/v1791882537/%D0%A1%D0%BE%D0%BD%D1%8F%D1%87%D0%BD%D1%96_%D0%BF%D0%B0%D0%BD%D0%B5%D0%BB%D1%96_%D0%BD%D0%B0_%D0%B7%D0%B0%D1%85%D0%BE%D0%B4%D1%96_%D1%81%D0%BE%D0%BD%D1%86%D1%8F.png"><meta name="theme-color" content="#08090D">
+  <link rel="canonical" href="https://solarline.ua/">
+  <!-- TODO: підставити реальний домен замість https://solarline.ua/ (canonical, og:url) -->
+  <meta property="og:url" content="https://solarline.ua/"><meta property="og:site_name" content="SolarLine"><meta property="og:locale" content="uk_UA">
+  <meta property="og:image:alt" content="Сонячні панелі на заході сонця — SolarLine">
+  <!-- TODO: og:image має бути 1200×630 px (JPG/PNG до 5 МБ). Завантажте окремий файл і замініть URL у og:image та twitter:image -->
+  <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="SolarLine — Сонячні електростанції «під ключ» для дому та бізнесу"><meta name="twitter:description" content="Преміальні сонячні електростанції під ключ в Україні. Автономні та гібридні системи з гарантією в договорі до 25 років."><meta name="twitter:image" content="https://res.cloudinary.com/zzfwn8ye/image/upload/v1791882537/%D0%A1%D0%BE%D0%BD%D1%8F%D1%87%D0%BD%D1%96_%D0%BF%D0%B0%D0%BD%D0%B5%D0%BB%D1%96_%D0%BD%D0%B0_%D0%B7%D0%B0%D1%85%D0%BE%D0%B4%D1%96_%D1%81%D0%BE%D0%BD%D1%86%D1%8F.png">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico" sizes="48x48 32x32 16x16">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="preconnect" href="https://res.cloudinary.com" crossorigin><link rel="dns-prefetch" href="https://cdn.tailwindcss.com">
+  <!-- GA4: вставити тег тут -->
+  <!-- Meta Pixel: вставити тут -->
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"SolarLine","telephone":"+380733464088","email":"info@solarline.ua","address":{"@type":"PostalAddress","streetAddress":"вул. Велика Васильківська, 72","addressLocality":"Київ","addressCountry":"UA"},"description":"Сонячні електростанції під ключ для дому та бізнесу"}</script>
+  <meta name="description" content="Преміальні сонячні електростанції під ключ в Україні. Автономні та гібридні системи з гарантією в договорі до 25 років.">
+
+  <!-- Google Fonts: Syne (Headings) + Plus Jakarta Sans (Body) + JetBrains Mono (Tech labels) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            solar: {
+              black: '#08090D',
+              surface: '#0D0B09',
+              card: '#12100E',
+              border: 'rgba(255, 255, 255, 0.08)',
+              white: '#FFFFFF',
+              muted: '#9C968F'
+            }
+          },
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            display: ['"Syne"', 'sans-serif'],
+            mono: ['"JetBrains Mono"', 'monospace']
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    :root {
+      --rose-shimmer: linear-gradient(100deg, #FFB347 0%, #FF7A1A 50%, #FF5A1F 100%);
+      --rose-glow: rgba(255, 122, 26, 0.25);
+    }
+
+    body {
+      background-color: #08090D;
+      color: #F5F3EF;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      overflow-x: hidden;
+    }
+
+    /* Technical Grid Overlay */
+    .tech-grid {
+      background-size: 80px 80px;
+      background-image: 
+        linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+    }
+
+    /* Atmospheric Light Glows */
+    .glow-rose-primary {
+      background: radial-gradient(circle, rgba(255, 122, 26, 0.24) 0%, rgba(255, 90, 31, 0.09) 45%, transparent 70%);
+    }
+
+    .glow-rose-soft {
+      background: radial-gradient(circle, rgba(255, 179, 71, 0.18) 0%, rgba(124, 45, 18, 0.12) 50%, transparent 75%);
+    }
+
+    /* Glassmorphic Surfaces */
+    .glass-surface {
+      background: linear-gradient(135deg, rgba(255, 255, 255, 0.035) 0%, rgba(255, 255, 255, 0.01) 100%);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+    }
+
+    .glass-pill {
+      background: rgba(18, 15, 12, 0.7);
+      backdrop-filter: blur(16px);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+    }
+
+    /* Unified Shimmer Text */
+    .text-shimmer {
+      background: linear-gradient(100deg, #FFB347 0%, #FF7A1A 25%, #FF5A1F 50%, #FF7A1A 75%, #FFB347 100%);
+      background-size: 200% 100%;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: textGradient 5s linear infinite;
+    }
+    @keyframes textGradient {
+      from { background-position: 0% 50%; }
+      to { background-position: -200% 50%; }
+    }
+
+    /* Primary White CTA Button */
+    .btn-white {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      min-height: 54px;
+      padding: 0 32px;
+      border-radius: 999px;
+      background: #FFFFFF;
+      color: #08090D;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 700;
+      font-size: 15px;
+      border: none;
+      cursor: pointer;
+      box-shadow: 0 10px 30px rgba(255, 255, 255, 0.18), 0 0 20px rgba(255, 122, 26, 0.2);
+      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .btn-white:hover {
+      background: #FFFFFF;
+      transform: translateY(-2px);
+      box-shadow: 0 14px 40px rgba(255, 255, 255, 0.3), 0 0 30px rgba(255, 122, 26, 0.4);
+    }
+
+    .btn-secondary {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 54px;
+      padding: 0 26px;
+      border-radius: 999px;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      background: rgba(255, 255, 255, 0.03);
+      backdrop-filter: blur(10px);
+      color: #FFFFFF;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 600;
+      font-size: 14px;
+      cursor: pointer;
+      transition: all 0.25s ease;
+    }
+
+    .btn-secondary:hover {
+      border-color: rgba(255, 255, 255, 0.5);
+      background: rgba(255, 255, 255, 0.08);
+      transform: translateY(-2px);
+    }
+
+    /* Cards Hover */
+    .hover-card {
+      transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .hover-card:hover {
+      transform: translateY(-4px);
+      border-color: rgba(255, 122, 26, 0.45) !important;
+      box-shadow: 0 25px 60px rgba(0, 0, 0, 0.7), 0 0 25px rgba(255, 122, 26, 0.15);
+    }
+
+    /* Section Transition Dome (Hero to Metrics) */
+    .curved-bridge-wrapper {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      margin-top: -60px;
+      padding-top: 60px;
+      z-index: 20;
+    }
+
+    .curved-bridge {
+      position: relative;
+      background: #08090D;
+      border-top: 1px solid rgba(255, 122, 26, 0.35);
+      border-top-left-radius: 50% 80px;
+      border-top-right-radius: 50% 80px;
+      box-shadow: 0 -30px 60px rgba(255, 122, 26, 0.08);
+    }
+
+    @media (min-width: 1024px) {
+      .curved-bridge {
+        border-top-left-radius: 50% 120px;
+        border-top-right-radius: 50% 120px;
+      }
+    }
+
+    /* Form Controls */
+    input, select, textarea {
+      transition: all 0.25s ease;
+      outline: none;
+    }
+    input:focus, select:focus, textarea:focus {
+      border-color: #FF7A1A !important;
+      box-shadow: 0 0 0 3px rgba(255, 122, 26, 0.2) !important;
+      background: rgba(18, 15, 12, 0.95) !important;
+    }
+
+    .calc-pill {
+      cursor: pointer;
+      user-select: none;
+      transition: all 0.2s ease;
+    }
+    .calc-pill.active {
+      border-color: #FFFFFF !important;
+      background: rgba(255, 255, 255, 0.14) !important;
+      color: #FFFFFF !important;
+    }
+    .calc-pill:hover:not(.active) {
+      border-color: rgba(255, 255, 255, 0.3);
+      color: #FFFFFF;
+    }
+
+    /* Range slider custom track */
+    input[type=range] {
+      -webkit-appearance: none;
+      appearance: none;
+      background: rgba(255, 255, 255, 0.15);
+      border-radius: 999px;
+      height: 6px;
+      outline: none;
+      cursor: pointer;
+    }
+    input[type=range]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      height: 20px;
+      width: 20px;
+      border-radius: 50%;
+      background: #FFFFFF;
+      cursor: pointer;
+      box-shadow: 0 0 14px rgba(255, 122, 26, 0.7);
+      border: 2px solid #FF7A1A;
+      transition: transform 0.15s ease;
+    }
+    input[type=range]::-webkit-slider-thumb:hover {
+      transform: scale(1.15);
+    }
+    input[type=range]::-moz-range-thumb {
+      height: 20px;
+      width: 20px;
+      border-radius: 50%;
+      background: #FFFFFF;
+      cursor: pointer;
+      box-shadow: 0 0 14px rgba(255, 122, 26, 0.7);
+      border: 2px solid #FF7A1A;
+    }
+
+    details summary {
+      list-style: none;
+      cursor: pointer;
+    }
+    details summary::-webkit-details-marker {
+      display: none;
+    }
+    .faq-icon {
+      transition: transform 0.3s ease, color 0.3s ease;
+    }
+    details[open] .faq-icon {
+      transform: rotate(45deg);
+      color: #FF7A1A;
+    }
+
+    /* ===== Improvements ===== */
+    section[id] { scroll-margin-top: 96px; }
+    :focus-visible { outline: 2px solid #FFB347; outline-offset: 3px; border-radius: 8px; }
+    .field-error { margin-top: 6px; font-size: 12px; color: #FF9AA8; }
+    .has-error input, .has-error select { border-color: #FF9AA8 !important; }
+    .hp-field { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; }
+
+    /* Hero mosaic: one continuous photo shown through a grid of tiles */
+    .hero-mosaic { position: absolute; inset: 0; z-index: 1; overflow: hidden; pointer-events: none; }
+    .hero-mosaic .photo {
+      position: absolute; inset: 0; opacity: 0; transition: opacity 0.3s ease;
+      background-color: #17120E;
+      background-image: url("https://res.cloudinary.com/zzfwn8ye/image/upload/v1791997311/fa4604d7-715e-4870-80df-2ba24178c061.jpg");
+      background-size: cover;
+      background-position: center 62%;
+      background-repeat: no-repeat;
+      -webkit-mask-repeat: no-repeat; mask-repeat: no-repeat;
+      -webkit-mask-size: 100% 100%; mask-size: 100% 100%;
+    }
+    .hero-mosaic.is-ready .photo { opacity: 1; }
+    .hero-mosaic .photo video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 62%; }
+    .hero-mosaic .photo::after {
+      content: ""; position: absolute; inset: 0; pointer-events: none;
+      background-image:
+        radial-gradient(ellipse 62% 55% at 30% 46%, rgba(8,9,13,0.8) 0%, rgba(8,9,13,0.45) 55%, rgba(8,9,13,0) 100%),
+        linear-gradient(180deg, rgba(8,9,13,0.30) 0%, rgba(8,9,13,0) 55%, rgba(8,9,13,0.05) 100%),
+        linear-gradient(120deg, rgba(255,122,26,0.14), rgba(255,110,167,0.04));
+    }
+    .mosaic-badge {
+      position: absolute; pointer-events: auto; display: flex; align-items: center; gap: 14px; padding: 0 16px;
+      border-radius: 10px; color: #fff;
+      background: rgba(18,15,12,0.55); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(255,255,255,0.2);
+      box-shadow: 0 14px 34px rgba(0,0,0,0.45);
+      transition: transform 0.35s cubic-bezier(0.16,1,0.3,1), border-color 0.25s, box-shadow 0.25s, background 0.25s;
+    }
+    .mosaic-badge:hover { transform: translateY(-4px); border-color: rgba(255,122,26,0.7); background: rgba(18,15,12,0.4); box-shadow: 0 18px 40px rgba(0,0,0,0.55), 0 0 24px rgba(255,122,26,0.28); }
+    .mosaic-badge .bi { flex: none; width: 40px; height: 40px; border-radius: 12px; display: grid; place-items: center; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.14); }
+    .mosaic-badge .bk { font-family: 'JetBrains Mono', monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(255,255,255,0.75); }
+    .mosaic-badge .bv { margin-top: 2px; font-family: 'Syne', sans-serif; font-weight: 700; font-size: 16px; line-height: 1.15; white-space: nowrap; }
+    @media (max-width: 767px) { .mosaic-badge { display: none; } }
+    /* Rounded section plate rises higher so it overlaps the mosaic */
+    /* No plate: the mosaic, grid and hero glow fade out into the next section */
+    #top { min-height: calc(95vh + 160px); }
+    .curved-bridge-wrapper { margin-top: -160px; padding-top: 0; }
+    .curved-bridge { background: transparent !important; border-top: 0 !important; border-radius: 0 !important; box-shadow: none !important; }
+    #top > .z-0, #top > .tech-grid {
+      -webkit-mask-image: linear-gradient(to bottom, #000 0, #000 calc(100% - 210px), transparent 100%);
+      mask-image: linear-gradient(to bottom, #000 0, #000 calc(100% - 210px), transparent 100%);
+    }
+    @media (prefers-reduced-motion: reduce) {
+        html { scroll-behavior: auto !important; }
+      *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
+    }
+  </style>
+
+<style>
+  @media (hover: hover) and (pointer: fine) {
+    html.has-custom-cursor, html.has-custom-cursor body,
+    html.has-custom-cursor a, html.has-custom-cursor button, html.has-custom-cursor summary,
+    html.has-custom-cursor [role="button"], html.has-custom-cursor input[type="range"], html.has-custom-cursor .cursor-pointer { cursor: none; }
+    .cursor-dot, .cursor-ring {
+      position: fixed; left: 0; top: 0; z-index: 9999; pointer-events: none;
+      border-radius: 9999px; opacity: 0; transition: opacity .25s ease;
+    }
+    .cursor-dot { width: 8px; height: 8px; margin: -4px 0 0 -4px; background: #FF7A1A; }
+    .cursor-ring { width: 32px; height: 32px; margin: -16px 0 0 -16px; }
+    .cursor-ring::before {
+      content: ""; position: absolute; inset: 0; border-radius: 9999px; box-sizing: border-box;
+      border: 1.5px solid rgba(255, 179, 71, 0.75);
+      transition: transform .25s cubic-bezier(0.22, 1, 0.36, 1), background-color .25s ease, border-color .25s ease;
+    }
+    .cursor-ring.is-hover::before { transform: scale(2); background-color: rgba(255, 122, 26, 0.12); border-color: rgba(255, 122, 26, 0.9); }
+    .cursor-dot.is-on, .cursor-ring.is-on { opacity: 1; }
+  }
+  @media not all and (hover: hover) and (pointer: fine) { .cursor-dot, .cursor-ring { display: none; } }
+</style>
+<style>@media (max-width: 639px) { #top { min-height: 0; } }</style><style>@media (max-width: 639px) { .mobile-bridge > svg { -webkit-mask-image: linear-gradient(to bottom, transparent 0, #000 60%); mask-image: linear-gradient(to bottom, transparent 0, #000 60%); } }</style><style>@keyframes glowDrift { 0% { translate: 0 0; } 50% { translate: 50px -40px; } 100% { translate: -40px 35px; } } .page-glows > div { animation: glowDrift 24s ease-in-out infinite alternate; will-change: translate; } .page-glows > div:nth-child(2n) { animation-duration: 30s; } .page-glows > div:nth-child(3n) { animation-duration: 36s; }</style><style>.glass-surface { box-shadow: 0 18px 44px rgba(0,0,0,0.28) !important; } .hover-card:hover { box-shadow: 0 22px 50px rgba(0,0,0,0.3), 0 0 25px rgba(255,122,26,0.15) !important; } main { overflow-y: visible; }</style><style>@media (max-width: 767px) { .hero-mosaic { display: none !important; } }</style></head>
+<body class="selection:bg-orange-600 selection:text-white">
+  <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-[100] focus:px-4 focus:py-2 focus:rounded-full focus:bg-white focus:text-black">До змісту</a>
+
+  <!-- ========================================================================= -->
+  <!-- 1. NAVIGATION BAR                                                         -->
+  <!-- ========================================================================= -->
+  <header class="fixed top-5 left-0 w-full z-50 px-6 sm:px-10 flex justify-between items-center pointer-events-none">
+    
+    <!-- Brand Logo -->
+    <a href="#top" class="pointer-events-auto flex items-center gap-3.5 group">
+      <div class="w-10 h-10 rounded-full glass-surface flex items-center justify-center border border-white/20 group-hover:border-orange-400/60 transition-all duration-300">
+        <svg aria-hidden="true" focusable="false" class="w-5 h-5 text-orange-400 group-hover:rotate-45 transition-transform duration-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="4" fill="currentColor" fill-opacity="0.2"/>
+          <path d="M12 2v3m0 14v3M2 12h3m14 0h3M4.93 4.93l2.12 2.12m9.9 9.9l2.12 2.12M4.93 19.07l2.12-2.12m9.9-9.9l2.12-2.12"/>
+        </svg>
+      </div>
+      <div class="flex flex-col">
+        <span class="font-display font-extrabold text-lg tracking-wider text-white flex items-center gap-1.5">
+          SOLAR<span class="text-xs font-mono font-medium px-1.5 py-0.5 rounded bg-orange-950/60 border border-orange-500/40 text-shimmer">LINE</span>
+        </span>
+        <span class="text-xs font-mono tracking-widest text-white/60 uppercase">Clean Energy Dynamics</span>
+      </div>
+    </a>
+
+    <!-- Navigation Links -->
+    <nav class="hidden lg:flex pointer-events-auto items-center gap-1 p-1.5 rounded-full glass-surface border border-white/10 shadow-2xl">
+      <a href="#solutions" class="px-5 py-2 rounded-full text-xs font-medium text-white/70 hover:text-white hover:bg-white/10 transition-all">Рішення</a>
+      <a href="#calculator" class="px-5 py-2 rounded-full text-xs font-medium text-white/70 hover:text-white hover:bg-white/10 transition-all">Калькулятор</a>
+      <a href="#process" class="px-5 py-2 rounded-full text-xs font-medium text-white/70 hover:text-white hover:bg-white/10 transition-all">Етапи</a>
+      <a href="#why" class="px-5 py-2 rounded-full text-xs font-medium text-white/70 hover:text-white hover:bg-white/10 transition-all">Переваги</a>
+      <a href="#projects" class="px-5 py-2 rounded-full text-xs font-medium text-white/70 hover:text-white hover:bg-white/10 transition-all">Проєкти</a>
+      <a href="#faq" class="px-5 py-2 rounded-full text-xs font-medium text-white/70 hover:text-white hover:bg-white/10 transition-all">FAQ</a>
+    </nav>
+
+    <!-- Header Actions -->
+    <div class="pointer-events-auto flex items-center gap-3">
+      <a href="tel:+380733464088" class="hidden md:flex items-center gap-2 px-4 py-2 rounded-full glass-pill text-xs font-mono text-white/90 hover:border-white/40 transition-all">
+        <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+        <span>+380 (73) 346-40-88</span>
+      </a>
+      
+      <div class="hidden sm:block">
+        <a href="#calculator" class="btn-white !min-h-[42px] !px-5 !text-xs">
+          <span>Розрахувати СЕС</span>
+        </a>
+      </div>
+
+      <button type="button" id="menu-toggle" class="lg:hidden w-11 h-11 rounded-full glass-surface border border-white/20 flex items-center justify-center text-white hover:border-white/60 transition-all" aria-label="Відкрити меню" aria-expanded="false" aria-controls="mobile-menu">
+        <svg aria-hidden="true" focusable="false" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+
+    <div id="mobile-menu" class="hidden pointer-events-auto absolute top-full left-6 right-6 sm:left-10 sm:right-10 mt-3 p-3 rounded-3xl glass-pill shadow-2xl max-h-[calc(100vh-110px)] overflow-y-auto">
+      <a href="#solutions" class="flex items-center min-h-[48px] px-4 rounded-2xl text-base font-semibold text-white hover:bg-white/10 hover:text-orange-300 transition-all">Рішення</a>
+      <a href="#calculator" class="flex items-center min-h-[48px] px-4 rounded-2xl text-base font-semibold text-white hover:bg-white/10 hover:text-orange-300 transition-all">Калькулятор</a>
+      <a href="#process" class="flex items-center min-h-[48px] px-4 rounded-2xl text-base font-semibold text-white hover:bg-white/10 hover:text-orange-300 transition-all">Етапи</a>
+      <a href="#why" class="flex items-center min-h-[48px] px-4 rounded-2xl text-base font-semibold text-white hover:bg-white/10 hover:text-orange-300 transition-all">Переваги</a>
+      <a href="#projects" class="flex items-center min-h-[48px] px-4 rounded-2xl text-base font-semibold text-white hover:bg-white/10 hover:text-orange-300 transition-all">Проєкти</a>
+      <a href="#faq" class="flex items-center min-h-[48px] px-4 rounded-2xl text-base font-semibold text-white hover:bg-white/10 hover:text-orange-300 transition-all">FAQ</a>
+      <a href="tel:+380733464088" class="flex items-center min-h-[48px] px-4 rounded-2xl text-sm font-mono text-white/80 hover:bg-white/10 transition-all">+380 (73) 346-40-88</a>
+      <a href="#calculator" class="btn-white w-full mt-2">Розрахувати СЕС</a>
+    </div>
+  </header>
+  <main id="main" class="relative isolate overflow-x-clip">
+  <div class="page-glows absolute inset-0 -z-10 pointer-events-none" aria-hidden="true"><div class="absolute right-0 translate-x-1/3 w-[440px] h-[340px] sm:w-[840px] sm:h-[540px] rounded-full glow-rose-primary filter blur-[110px] sm:blur-[150px] opacity-90" style="top:13%;animation-delay:-0s"></div><div class="absolute left-0 -translate-x-1/3 w-[440px] h-[340px] sm:w-[840px] sm:h-[540px] rounded-full glow-rose-soft filter blur-[110px] sm:blur-[150px] opacity-90" style="top:23%;animation-delay:-3s"></div><div class="absolute right-0 translate-x-1/3 w-[440px] h-[340px] sm:w-[840px] sm:h-[540px] rounded-full glow-rose-primary filter blur-[110px] sm:blur-[150px] opacity-90" style="top:36%;animation-delay:-6s"></div><div class="absolute left-0 -translate-x-1/3 w-[440px] h-[340px] sm:w-[840px] sm:h-[540px] rounded-full glow-rose-soft filter blur-[110px] sm:blur-[150px] opacity-90" style="top:48%;animation-delay:-9s"></div><div class="absolute right-0 translate-x-1/3 w-[440px] h-[340px] sm:w-[840px] sm:h-[540px] rounded-full glow-rose-primary filter blur-[110px] sm:blur-[150px] opacity-90" style="top:61%;animation-delay:-12s"></div><div class="absolute left-0 -translate-x-1/3 w-[440px] h-[340px] sm:w-[840px] sm:h-[540px] rounded-full glow-rose-soft filter blur-[110px] sm:blur-[150px] opacity-90" style="top:74%;animation-delay:-15s"></div><div class="absolute left-1/2 -translate-x-1/2 w-[440px] h-[340px] sm:w-[840px] sm:h-[540px] rounded-full glow-rose-primary filter blur-[110px] sm:blur-[150px] opacity-90" style="top:88%;animation-delay:-18s"></div></div>
+
+
+  <!-- ========================================================================= -->
+  <!-- 2. HERO SECTION                                                           -->
+  <!-- ========================================================================= -->
+  <section id="top" class="relative w-full pt-32 sm:pt-36 pb-[190px] sm:pb-[288px] px-6 sm:px-10 flex flex-col items-center justify-center overflow-x-clip min-h-[95vh]">
+    
+    <!-- Background Gradients -->
+    <div class="absolute inset-0 pointer-events-none z-0">
+      <div class="absolute inset-0 bg-gradient-to-b from-solar-black via-solar-surface to-transparent"></div>
+      <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[900px] h-[550px] glow-rose-primary rounded-full filter blur-[130px] opacity-75"></div>
+      <div class="absolute -bottom-32 left-1/2 -translate-x-1/2 w-[1100px] h-[400px] glow-rose-soft rounded-full filter blur-[130px] opacity-60"></div>
+    </div>
+    
+    <!-- Distinct Technical Grid Lines -->
+    <div class="hero-mosaic" id="hero-mosaic" aria-hidden="false"><div class="photo" role="img" aria-label="Сонячна електростанція на заході сонця"></div></div>
+    <div class="absolute inset-0 tech-grid pointer-events-none z-[2] opacity-70" style="background-position: 0 100%"></div>
+
+    <!-- Central Hero Headline & Copy -->
+    <div class="relative z-10 w-full text-left flex flex-col items-start justify-center">
+      
+      <!-- Eyebrow Pill -->
+      <div class="inline-flex items-center gap-2.5 max-w-full px-3 sm:px-4 py-1.5 rounded-full glass-surface border border-orange-500/30 text-[10px] sm:text-xs font-mono tracking-wider sm:tracking-widest uppercase mb-6 sm:mb-8 shadow-2xl">
+        <span class="relative flex h-2 w-2">
+          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-orange-400 opacity-75"></span>
+          <span class="relative inline-flex rounded-full h-2 w-2 bg-orange-500"></span>
+        </span>
+        <span class="text-shimmer font-semibold">СОНЯЧНІ ЕЛЕКТРОСТАНЦІЇ ПІД КЛЮЧ</span>
+      </div>
+
+      <!-- Monumental Headline (Syne) -->
+      <h1 class="font-display font-extrabold text-[clamp(1.6rem,9.4vw,3rem)] sm:text-6xl md:text-7xl lg:text-7xl xl:text-8xl tracking-tight leading-[0.98] text-white mb-6 sm:mb-8">
+        ЕНЕРГІЯ,<br class="hidden sm:inline">
+        <span class="text-shimmer italic font-normal">ПЕРЕОСМИСЛЕНА.</span>
+      </h1>
+
+      <!-- Subtitle (Plus Jakarta Sans) -->
+      <p class="max-w-2xl text-base sm:text-lg text-solar-muted font-light leading-relaxed mb-8 sm:mb-10 text-balance">
+        Проєктуємо та монтуємо інтелектуальні сонячні станції для приватних будинків і підприємств. Світло без блекаутів, окупність від 2.5 років і юридична гарантія в договорі.
+      </p>
+
+      <!-- Action Buttons -->
+      <div class="flex items-center gap-3">
+        <a href="#calculator" class="btn-white">
+          <span>Підібрати систему</span>
+        </a>
+
+        <a href="#contact" aria-label="Консультація" class="w-13 h-13 p-3.5 rounded-full glass-surface border border-white/20 flex items-center justify-center text-white hover:border-white/60 transition-all duration-300 group active:scale-95 shadow-xl">
+          <svg aria-hidden="true" focusable="false" class="w-5 h-5 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M7 17L17 7M17 7H7M17 7V17"/>
+          </svg>
+        </a>
+      </div>
+
+      <!-- Key Value Points -->
+      <div class="mt-8 sm:mt-12 flex flex-wrap justify-start items-center gap-x-5 gap-y-3 sm:gap-8 text-xs font-mono text-white/65 tracking-wider">
+        <div class="flex items-center gap-2">
+          <svg aria-hidden="true" focusable="false" class="w-3.5 h-3.5 text-orange-400" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2"><path d="M2.5 7.5l3 3 6-7"/></svg>
+          <span>БЕЗКОШТОВНИЙ 3D-ПРОЄКТ</span>
+        </div>
+        <span class="w-1 h-1 rounded-full bg-white/20 hidden sm:block"></span>
+        <div class="flex items-center gap-2">
+          <svg aria-hidden="true" focusable="false" class="w-3.5 h-3.5 text-orange-400" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2"><path d="M2.5 7.5l3 3 6-7"/></svg>
+          <span>ФІКСОВАНИЙ КОШТОРИС</span>
+        </div>
+        <span class="w-1 h-1 rounded-full bg-white/20 hidden sm:block"></span>
+        <div class="flex items-center gap-2">
+          <svg aria-hidden="true" focusable="false" class="w-3.5 h-3.5 text-orange-400" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2"><path d="M2.5 7.5l3 3 6-7"/></svg>
+          <span>МОНІТОРИНГ 24/7</span>
+        </div>
+      </div>
+    </div>
+
+    </section>
+
+
+  <!-- ========================================================================= -->
+  <!-- ROUNDED SECTION TRANSITION DOME 1 (Hero to Metrics)                       -->
+  <!-- ========================================================================= -->
+  <div class="curved-bridge-wrapper">
+    <div class="curved-bridge pt-4 sm:pt-24 pb-4 sm:pb-8">
+      
+      <!-- 3. METRICS / NUMBERS SECTION (Strictly equal heights & styling) -->
+      <section class="w-full max-w-6xl mx-auto px-6 sm:px-10">
+        <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 items-stretch">
+          
+          <!-- Card 1 -->
+          <div class="p-6 rounded-2xl glass-surface border border-white/10 hover-card flex flex-col justify-between h-full min-h-[195px]">
+            <div class="text-xs font-mono text-white/60 font-semibold tracking-wider">/ 01 — ДОСВІД</div>
+            <div>
+              <div class="font-display font-bold text-3xl sm:text-4xl text-white" data-count="480" data-suffix="+">480+</div>
+              <div class="mt-2 text-xs text-solar-muted leading-relaxed">збудованих сонячних станцій</div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="p-6 rounded-2xl glass-surface border border-white/10 hover-card flex flex-col justify-between h-full min-h-[195px]">
+            <div class="text-xs font-mono text-white/60 font-semibold tracking-wider">/ 02 — МАСШТАБ</div>
+            <div>
+              <div class="font-display font-bold text-3xl sm:text-4xl text-white flex items-baseline gap-1.5">
+                <span data-count="18.5" data-decimals="1">18.5</span>
+                <span class="text-xl sm:text-2xl font-semibold text-white/80">МВт</span>
+              </div>
+              <div class="mt-2 text-xs text-solar-muted leading-relaxed">сумарна встановлена потужність</div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="p-6 rounded-2xl glass-surface border border-white/10 hover-card flex flex-col justify-between h-full min-h-[195px]">
+            <div class="text-xs font-mono text-white/60 font-semibold tracking-wider">/ 03 — СТАБІЛЬНІСТЬ</div>
+            <div>
+              <div class="font-display font-bold text-3xl sm:text-4xl text-white" data-count="8" data-suffix=" років">8 років</div>
+              <div class="mt-2 text-xs text-solar-muted leading-relaxed">на ринку альтернативної енергетики</div>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="p-6 rounded-2xl glass-surface border border-white/10 hover-card flex flex-col justify-between h-full min-h-[195px]">
+            <div class="text-xs font-mono text-white/60 font-semibold tracking-wider">/ 04 — БЕЗПЕРЕБІЙНІСТЬ</div>
+            <div>
+              <div class="font-display font-bold text-3xl sm:text-4xl text-white" data-count="10" data-prefix="< " data-suffix=" мс">&lt; 10 мс</div>
+              <div class="mt-2 text-xs text-solar-muted leading-relaxed">перехід на резервні АКБ у гібридних СЕС</div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+    </div>
+  </div>
+
+
+  <!-- ========================================================================= -->
+  <!-- 4. PROBLEM & VALUE PROPOSITION                                            -->
+  <!-- ========================================================================= -->
+  <section class="relative w-full max-w-6xl mx-auto px-6 sm:px-10 py-8 sm:py-20 overflow-hidden">
+    <!-- Atmospheric Ambient Glow -->
+    
+
+    <div class="relative z-10 flex flex-col lg:flex-row lg:items-end justify-between gap-6 sm:gap-8 mb-8 sm:mb-12">
+      <div class="max-w-xl">
+        <span class="text-xs font-mono uppercase tracking-widest text-shimmer block mb-3 font-semibold">/ АКТУАЛЬНІСТЬ</span>
+        <h2 class="font-display font-extrabold text-3xl sm:text-4xl lg:text-5xl text-white tracking-tight leading-tight">
+          Аварійні відключення не повинні зупиняти ваше життя і бізнес
+        </h2>
+      </div>
+      <p class="max-w-md text-sm sm:text-base text-solar-muted font-light leading-relaxed">
+        Тепловий насос, котел, холодильники, касові апарати чи верстати — все зав’язано на електроенергії. Власна гібридна станція перемикається на акумулятори за 10 мілісекунд, а вдень покриває споживання від сонця.
+      </p>
+    </div>
+
+    <!-- Banner image with PVsyst simulation badge -->
+    <div class="relative z-10 w-full h-[300px] sm:h-[460px] rounded-3xl overflow-hidden glass-surface border border-white/10">
+      <img loading="lazy" decoding="async" width="1200" height="800" src="https://res.cloudinary.com/zzfwn8ye/image/upload/v1791883164/Modern_reception_building_with_s__2K_20261013121854.jpg" alt="Сонячна станція SolarLine" class="w-full h-full object-cover">
+      <div class="absolute inset-0 bg-gradient-to-t from-solar-black via-solar-black/40 to-transparent"></div>
+      
+      <div class="absolute bottom-6 left-6 right-6 flex flex-col sm:flex-row justify-between items-start sm:items-end gap-4 p-6 rounded-2xl glass-surface border border-white/10">
+        <p class="text-sm sm:text-base text-white/90 max-w-xl font-light">
+          Ми не нав’язуємо надлишкове обладнання: кожна станція моделюється у професійному софті <span class="text-shimmer font-mono font-medium">PVsyst</span> за картою інсоляції вашої локації.
+        </p>
+        <span class="text-xs font-mono uppercase tracking-widest text-shimmer whitespace-nowrap bg-orange-950/40 px-3 py-1.5 rounded-full border border-orange-500/30">
+          Моделювання в PVsyst
+        </span>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========================================================================= -->
+  <!-- 5. SOLUTIONS SECTION (With Requested Accent Labels)                       -->
+  <!-- ========================================================================= -->
+  <section id="solutions" class="relative w-full max-w-6xl mx-auto px-6 sm:px-10 py-8 sm:py-20 overflow-hidden">
+    <!-- Atmospheric Glow -->
+    
+
+    <div class="relative z-10 flex flex-col md:flex-row md:items-end justify-between mb-8 sm:mb-16 gap-4 sm:gap-6">
+      <div>
+        <span class="text-xs font-mono uppercase tracking-widest text-shimmer block mb-3 font-semibold">/ КОМПЛЕКТАЦІЇ</span>
+        <h2 class="font-display font-extrabold text-3xl sm:text-4xl lg:text-5xl text-white tracking-tight">
+          Рішення під ваші потреби
+        </h2>
+      </div>
+      <p class="max-w-md text-sm text-solar-muted font-light leading-relaxed">
+        Підбираємо конфігурацію під тип вашої покрівлі, площу та добовий графік споживання.
+      </p>
+    </div>
+
+    <!-- 3 Clean Cards with Requested Accent Colors on Labels -->
+    <div class="relative z-10 grid grid-cols-1 md:grid-cols-3 gap-6">
+      
+      <!-- Solution 1: Home -->
+      <div class="p-6 sm:p-8 rounded-3xl glass-surface border border-white/10 flex flex-col justify-between hover-card group">
+        <div>
+          <div class="w-11 h-11 rounded-xl bg-white/5 border border-white/10 text-white/90 flex items-center justify-center mb-6">
+            <svg aria-hidden="true" focusable="false" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          </div>
+          <span class="text-xs font-mono text-shimmer uppercase tracking-wider font-semibold">/ 01 — ПРИВАТНИЙ БУДИНОК</span>
+          <h3 class="font-display font-bold text-2xl text-white mt-2 mb-3">Гібридна СЕС 5–20 кВт</h3>
+          <p class="text-xs sm:text-sm text-solar-muted leading-relaxed font-light mb-6">
+            Повна автономія будинку під час блекаутів. Живлення котла, холодильників, насосів та освітлення з автоматичним перемиканням.
+          </p>
+          <div class="space-y-2.5 text-xs text-white/70">
+            <div class="flex items-center gap-2.5"><span class="text-white/60">•</span><span>LiFePO4 акумулятори: 5–20 кВт·год</span></div>
+            <div class="flex items-center gap-2.5"><span class="text-white/60">•</span><span>Монтаж на будь-який тип даху</span></div>
+            <div class="flex items-center gap-2.5"><span class="text-white/60">•</span><span>Мобільний застосунок моніторингу</span></div>
+          </div>
+        </div>
+        <div class="mt-8 pt-6 border-t border-white/10 flex justify-between items-center">
+          <div>
+            <div class="text-xs font-mono text-white/60 uppercase">Бюджет «під ключ»</div>
+            <div class="font-display font-bold text-xl text-white mt-0.5">від $4,200</div><div class="text-xs text-white/65 mt-0.5">≈ 175 000 грн</div>
+          </div>
+          <a href="#calculator" aria-label="Розрахувати вартість" class="w-10 h-10 rounded-full glass-surface flex items-center justify-center text-white/80 hover:text-white transition-colors">
+            <svg aria-hidden="true" focusable="false" class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Solution 2: Business -->
+      <div class="p-6 sm:p-8 rounded-3xl glass-surface border border-white/10 flex flex-col justify-between hover-card group">
+        <div>
+          <div class="w-11 h-11 rounded-xl bg-white/5 border border-white/10 text-white/90 flex items-center justify-center mb-6">
+            <svg aria-hidden="true" focusable="false" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+          </div>
+          <span class="text-xs font-mono text-shimmer uppercase tracking-wider font-semibold">/ 02 — БІЗНЕС ТА СТО</span>
+          <h3 class="font-display font-bold text-2xl text-white mt-2 mb-3">СЕС для бізнесу 30–500 кВт</h3>
+          <p class="text-xs sm:text-sm text-solar-muted leading-relaxed font-light mb-6">
+            Мережеві СЕС під власне споживання для складів, магазинів, офісних центрів та виробництв. Заміщення дорогого комерційного тарифу.
+          </p>
+          <div class="space-y-2.5 text-xs text-white/70">
+            <div class="flex items-center gap-2.5"><span class="text-white/60">•</span><span>Економія до 70% на рахунках</span></div>
+            <div class="flex items-center gap-2.5"><span class="text-white/60">•</span><span>Окупність станції: 2.5 – 3.5 роки</span></div>
+            <div class="flex items-center gap-2.5"><span class="text-white/60">•</span><span>Для власного споживання зазвичай без ліцензії</span></div>
+          </div>
+        </div>
+        <div class="mt-8 pt-6 border-t border-white/10 flex justify-between items-center">
+          <div>
+            <div class="text-xs font-mono text-white/60 uppercase">Термін окупності</div>
+            <div class="font-display font-bold text-xl text-white mt-0.5">2.5 – 3.5 роки</div>
+          </div>
+          <a href="#calculator" aria-label="Розрахувати вартість" class="w-10 h-10 rounded-full glass-surface flex items-center justify-center text-white/80 hover:text-white transition-colors">
+            <svg aria-hidden="true" focusable="false" class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Solution 3: Off-grid -->
+      <div class="p-6 sm:p-8 rounded-3xl glass-surface border border-white/10 flex flex-col justify-between hover-card group">
+        <div>
+          <div class="w-11 h-11 rounded-xl bg-white/5 border border-white/10 text-white/90 flex items-center justify-center mb-6">
+            <svg aria-hidden="true" focusable="false" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          </div>
+          <span class="text-xs font-mono text-shimmer uppercase tracking-wider font-semibold">/ 03 — АВТОНОМНІСТЬ</span>
+          <h3 class="font-display font-bold text-2xl text-white mt-2 mb-3">Системи резерву та накопичення</h3>
+          <p class="text-xs sm:text-sm text-solar-muted leading-relaxed font-light mb-6">
+            Інверторні накопичувачі для об'єктів без підключення до РЕМ або з нестабільною напругою. Можливість зарядки від генератора.
+          </p>
+          <div class="space-y-2.5 text-xs text-white/70">
+            <div class="flex items-center gap-2.5"><span class="text-white/60">•</span><span>Синхронізація з дизель-генератором</span></div>
+            <div class="flex items-center gap-2.5"><span class="text-white/60">•</span><span>Стабілізація стрибків напруги</span></div>
+            <div class="flex items-center gap-2.5"><span class="text-white/60">•</span><span>Модульне розширення батарей</span></div>
+          </div>
+        </div>
+        <div class="mt-8 pt-6 border-t border-white/10 flex justify-between items-center">
+          <div>
+            <div class="text-xs font-mono text-white/60 uppercase">Бюджет «під ключ»</div>
+            <div class="font-display font-bold text-xl text-white mt-0.5">від $2,800</div><div class="text-xs text-white/65 mt-0.5">≈ 116 000 грн</div>
+          </div>
+          <a href="#calculator" aria-label="Розрахувати вартість" class="w-10 h-10 rounded-full glass-surface flex items-center justify-center text-white/80 hover:text-white transition-colors">
+            <svg aria-hidden="true" focusable="false" class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ========================================================================= -->
+  <!-- 6. CALCULATOR SECTION (100% Working & Clean)                               -->
+  <!-- ========================================================================= -->
+  <section id="calculator" class="relative w-full max-w-6xl mx-auto px-6 sm:px-10 pt-8 pb-6 sm:pt-20 sm:pb-12 z-20">
+    <div class="relative rounded-3xl overflow-hidden glass-surface border border-white/10 p-3 sm:p-14">
+      <div class="absolute inset-0 tech-grid opacity-20 pointer-events-none"></div>
+      
+      <div class="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-6 sm:gap-10 items-center">
+        <!-- Results Panel -->
+        <div class="lg:col-span-6 px-[21px] pt-5 sm:p-0">
+          <span class="text-xs font-mono uppercase tracking-widest text-shimmer block mb-3 font-semibold">/ ОНЛАЙН РОЗРАХУНОК</span>
+          <h2 class="font-display font-extrabold text-3xl sm:text-4xl text-white tracking-tight mb-4">
+            Розрахуйте параметри своєї СЕС
+          </h2>
+          <p class="text-sm text-solar-muted font-light mb-8 leading-relaxed">
+            Оберіть тип об’єкта, необхідну потужність та потребу в акумуляторах. Калькулятор автоматично підрахує характеристики.
+          </p>
+
+          <!-- Result Card -->
+          <div class="-mx-[21px] sm:mx-0 p-5 sm:p-6 rounded-2xl bg-black/60 border border-white/10 backdrop-blur-md">
+            <div class="grid grid-cols-2 gap-x-4 gap-y-5 sm:gap-6">
+              <div>
+                <div class="text-xs font-mono text-white/60 uppercase">Потужність СЕС</div>
+                <div id="calc-power" class="font-display font-bold text-xl sm:text-2xl text-white mt-1">10 кВт</div>
+              </div>
+              <div>
+                <div class="text-xs font-mono text-white/60 uppercase">Місткість батарей</div>
+                <div id="calc-battery" class="font-display font-bold text-xl sm:text-2xl text-white mt-1">13 кВт·год</div>
+              </div>
+              <div>
+                <div class="text-xs font-mono text-white/60 uppercase">Річна генерація</div>
+                <div id="calc-gen" class="font-display font-semibold text-base sm:text-lg text-white/90 mt-1">~11 500 кВт·год</div>
+              </div>
+              <div>
+                <div class="text-xs font-mono text-white/60 uppercase" id="calc-price-label">Орієнтовна вартість</div>
+                <div id="calc-price" class="font-display font-bold text-base sm:text-lg text-white mt-1">$8,300 – $9,296</div><div id="calc-price-uah" class="text-xs text-white/65 mt-1">≈ 344 – 386 тис. грн</div>
+              </div>
+            </div>
+            <p class="mt-5 pt-4 border-t border-white/10 text-xs text-white/65 leading-relaxed">Орієнтовний розрахунок. Остаточну вартість фіксуємо в договорі після виїзду інженера.</p>
+          </div>
+        </div>
+
+        <!-- Controls -->
+        <div class="lg:col-span-6 p-5 sm:p-8 rounded-2xl bg-solar-surface border border-white/10">
+          <div class="mb-5 sm:mb-6">
+            <label class="block text-xs font-mono uppercase text-white/65 tracking-wider mb-2.5">1. Тип об'єкта</label>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5 sm:gap-3">
+              <button type="button" id="btn-type-home" class="calc-pill active py-3 px-4 rounded-xl border border-white/20 text-xs font-semibold text-white">
+                Приватний будинок
+              </button>
+              <button type="button" id="btn-type-business" class="calc-pill py-3 px-4 rounded-xl border border-white/10 text-xs font-semibold text-white/65">
+                Бізнес / Комерція
+              </button>
+            </div>
+          </div>
+
+          <div class="mb-6">
+            <div class="flex justify-between items-center mb-2">
+              <label class="text-xs font-mono uppercase text-white/65 tracking-wider">2. Бажана потужність</label>
+              <span id="range-val" class="font-mono text-sm font-bold text-white">10 кВт</span>
+            </div>
+            <input type="range" id="power-range" min="5" max="50" step="5" value="10" class="w-full cursor-pointer">
+            <div class="flex justify-between text-xs font-mono text-white/60 mt-1.5" id="range-bounds">
+              <span>5 кВт</span>
+              <span>25 кВт</span>
+              <span>50 кВт</span>
+            </div>
+          </div>
+
+          <div class="mb-8">
+            <label class="block text-xs font-mono uppercase text-white/65 tracking-wider mb-2.5">3. Потрібен акумуляторний резерв?</label>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5 sm:gap-3">
+              <button type="button" id="btn-battery-yes" class="calc-pill active py-3 px-4 rounded-xl border border-white/20 text-xs font-semibold text-white">
+                Так (повний резерв)
+              </button>
+              <button type="button" id="btn-battery-no" class="calc-pill py-3 px-4 rounded-xl border border-white/10 text-xs font-semibold text-white/65">
+                Ні (тільки мережа)
+              </button>
+            </div>
+          </div>
+
+          <a href="#contact" class="btn-white w-full py-4 text-center">
+            Отримати кошторис
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========================================================================= -->
+  <!-- HIGH INVERTED TRANSITION BRIDGE (Rising to the Middle of Calculator Block)-->
+  <!-- ========================================================================= -->
+  <div class="mobile-bridge relative w-full -mt-4 sm:-mt-64 lg:-mt-[360px] z-10 pointer-events-none">
+    <!-- Volumetric Ambient Light Glow radiating downward -->
+    <div class="absolute bottom-16 left-1/2 -translate-x-1/2 translate-y-1/4 w-[1100px] h-[450px] glow-rose-primary rounded-full filter blur-[140px] opacity-75 pointer-events-none"></div>
+    <div class="absolute bottom-8 left-1/2 -translate-x-1/2 translate-y-1/3 w-[850px] h-[340px] glow-rose-soft rounded-full filter blur-[120px] opacity-55 pointer-events-none"></div>
+
+    <svg aria-hidden="true" focusable="false" class="relative z-[2] w-full h-20 sm:h-64 lg:h-[340px] block" viewBox="0 0 1440 260" fill="none" preserveAspectRatio="none">
+      <defs>
+        <linearGradient id="reverseBridgeStroke" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" stop-color="#FF7A1A" stop-opacity="0.1" />
+          <stop offset="18%" stop-color="#FFB347" stop-opacity="0.75" />
+          <stop offset="50%" stop-color="#FF7A1A" stop-opacity="0.95" />
+          <stop offset="82%" stop-color="#FFB347" stop-opacity="0.75" />
+          <stop offset="100%" stop-color="#FF5A1F" stop-opacity="0.1" />
+        </linearGradient>
+        <linearGradient id="reverseBridgeFill" x1="0%" y1="0%" x2="0%" y2="100%">
+          <stop offset="0%" stop-color="#1B0F07" stop-opacity="0.9" />
+          <stop offset="45%" stop-color="#0C0907" stop-opacity="0.6" />
+          <stop offset="100%" stop-color="#08090D" stop-opacity="0" />
+        </linearGradient>
+      </defs>
+      <!-- Background volumetric gradient fill connecting seamlessly to Process section -->
+      <path d="M0,0 C380,250 1060,250 1440,0 L1440,260 L0,260 Z" fill="url(#reverseBridgeFill)" />
+      <!-- Luminous curved scoop line ending up at the middle of the calculator section -->
+      <path d="M0,0 C380,250 1060,250 1440,0" stroke="url(#reverseBridgeStroke)" stroke-width="2.5" filter="drop-shadow(0 -4px 18px rgba(255, 122, 26, 0.6))" />
+    </svg>
+  </div>
+
+
+  <!-- ========================================================================= -->
+  <!-- 7. PROCESS STEPS (Consistent Spacing)                                     -->
+  <!-- ========================================================================= -->
+  <section id="process" class="relative w-full max-w-6xl mx-auto px-6 sm:px-10 pt-8 pb-8 sm:pt-20 sm:pb-20 z-20">
+    <div class="mb-8 sm:mb-14">
+      <span class="text-xs font-mono uppercase tracking-widest text-shimmer block mb-3 font-semibold">/ ЕТАПИ СПІВПРАЦІ</span>
+      <h2 class="font-display font-extrabold text-3xl sm:text-4xl lg:text-5xl text-white tracking-tight">
+        Від заявки до власного струму
+      </h2>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
+      <div class="p-6 rounded-2xl glass-surface border border-white/10 hover-card">
+        <div class="font-mono text-white/60 text-sm font-bold">01</div>
+        <h3 class="font-display font-bold text-lg text-white mt-4 mb-2">Аудит</h3>
+        <p class="text-xs text-solar-muted leading-relaxed font-light">Аналізуємо графік споживання та формуємо базові конфігурації.</p>
+      </div>
+
+      <div class="p-6 rounded-2xl glass-surface border border-white/10 hover-card">
+        <div class="font-mono text-white/60 text-sm font-bold">02</div>
+        <h3 class="font-display font-bold text-lg text-white mt-4 mb-2">Виїзд</h3>
+        <p class="text-xs text-solar-muted leading-relaxed font-light">Інженер оглядає покрівлю, затінення, заземлення та щитову.</p>
+      </div>
+
+      <div class="p-6 rounded-2xl glass-surface border border-white/10 hover-card">
+        <div class="font-mono text-white/60 text-sm font-bold">03</div>
+        <h3 class="font-display font-bold text-lg text-white mt-4 mb-2">Договір</h3>
+        <p class="text-xs text-solar-muted leading-relaxed font-light">Створюємо 3D-проєкт та фіксуємо остаточну вартість і гарантію.</p>
+      </div>
+
+      <div class="p-6 rounded-2xl glass-surface border border-white/10 hover-card">
+        <div class="font-mono text-white/60 text-sm font-bold">04</div>
+        <h3 class="font-display font-bold text-lg text-white mt-4 mb-2">Монтаж</h3>
+        <p class="text-xs text-solar-muted leading-relaxed font-light">Власна штатна бригада виконує встановлення за 5–10 робочих днів.</p>
+      </div>
+
+      <div class="p-6 rounded-2xl glass-surface border border-white/10 hover-card">
+        <div class="font-mono text-white/60 text-sm font-bold">05</div>
+        <h3 class="font-display font-bold text-lg text-white mt-4 mb-2">Пуск</h3>
+        <p class="text-xs text-solar-muted leading-relaxed font-light">Тестуємо захист, підключаємо додаток та беремо на гарантійний облік.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========================================================================= -->
+  <!-- 8. WHY CHOOSE US                                                          -->
+  <!-- ========================================================================= -->
+  <section id="why" class="relative w-full max-w-6xl mx-auto px-6 sm:px-10 py-8 sm:py-20 overflow-hidden">
+    <!-- Ambient Glow -->
+    
+
+    <div class="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
+      <div class="lg:col-span-5 relative rounded-3xl overflow-hidden glass-surface border border-white/10 min-h-[320px] sm:min-h-[420px]">
+        <img loading="lazy" decoding="async" width="1200" height="800" src="https://res.cloudinary.com/zzfwn8ye/image/upload/v1791890653/Installer_mounting_solar_panel_o__2K_20261013142358.jpg" alt="Монтажник встановлює сонячну панель" class="w-full h-full object-cover">
+        <div class="absolute inset-0 bg-gradient-to-t from-solar-black via-solar-black/40 to-transparent"></div>
+        <div class="absolute bottom-6 left-6 right-6 p-5 rounded-2xl glass-surface border border-white/10">
+          <div class="text-xs font-mono text-shimmer uppercase font-semibold">Штатні сертифіковані інженери</div>
+          <div class="text-sm text-white/90 font-light mt-1">Жодних випадкових субпідрядників. Досвід бригадирів — від 50 об'єктів.</div>
+        </div>
+      </div>
+
+      <div class="lg:col-span-7 flex flex-col justify-between gap-6">
+        <div>
+          <span class="text-xs font-mono uppercase tracking-widest text-shimmer block mb-3 font-semibold">/ ЧОМУ СОЛАРЛАЙН</span>
+          <h2 class="font-display font-extrabold text-3xl sm:text-4xl text-white tracking-tight mb-6">
+            Безкомпромісний інженерний стандарт
+          </h2>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div class="p-6 rounded-2xl glass-surface border border-white/10 hover-card">
+            <h3 class="font-display font-bold text-lg text-white mb-2">Бренди списку Tier-1</h3>
+            <p class="text-xs text-solar-muted leading-relaxed font-light">
+              Прямі контракти з офіційними імпортерами Deye, Huawei, Jinko Solar, Longi. Жодних підробок чи застарілих партій.
+            </p>
+          </div>
+          <div class="p-6 rounded-2xl glass-surface border border-white/10 hover-card">
+            <h3 class="font-display font-bold text-lg text-white mb-2">Фіксований кошторис</h3>
+            <p class="text-xs text-solar-muted leading-relaxed font-light">
+              Кожна позиція прорахована до останнього з'єднувача. Вартість закріплюється у договорі і не зростає під час робіт.
+            </p>
+          </div>
+          <div class="p-6 rounded-2xl glass-surface border border-white/10 hover-card">
+            <h3 class="font-display font-bold text-lg text-white mb-2">Гарантія до 25 років</h3>
+            <p class="text-xs text-solar-muted leading-relaxed font-light">
+              5 років на якість електромонтажу, 10 років на інвертори та LiFePO4 АКБ, 25 років на лінійну продуктивність фотомодулів.
+            </p>
+          </div>
+          <div class="p-6 rounded-2xl glass-surface border border-white/10 hover-card">
+            <h3 class="font-display font-bold text-lg text-white mb-2">Підтримка 24/7</h3>
+            <p class="text-xs text-solar-muted leading-relaxed font-light">
+              Хмарний моніторинг інверторів. Якщо параметри мережі відхиляються від норми, наші інженери бачать це миттєво.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========================================================================= -->
+  <!-- 9. REAL PROJECTS (With Requested Accent Labels)                           -->
+  <!-- ========================================================================= -->
+  <section id="projects" class="w-full max-w-6xl mx-auto px-6 sm:px-10 py-8 sm:py-20">
+    <div class="flex flex-col md:flex-row md:items-end justify-between mb-8 sm:mb-14 gap-4 sm:gap-6">
+      <div>
+        <span class="text-xs font-mono uppercase tracking-widest text-shimmer block mb-3 font-semibold">/ НАШІ КЕЙСИ</span>
+        <h2 class="font-display font-extrabold text-3xl sm:text-4xl lg:text-5xl text-white tracking-tight">
+          Реалізовані об'єкти
+        </h2>
+      </div>
+      <a href="#contact" class="btn-secondary text-xs">
+        Замовити прорахунок свого об'єкта
+      </a>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <!-- Case 1 -->
+      <div class="rounded-3xl overflow-hidden glass-surface border border-white/10 hover-card flex flex-col">
+        <div class="h-56 relative overflow-hidden">
+          <img loading="lazy" decoding="async" width="1200" height="800" src="https://res.cloudinary.com/zzfwn8ye/image/upload/v1791892275/Installer_holding_solar_panel_at__2K_20261013145104.jpg" alt="Гібридна СЕС для котеджу" class="w-full h-full object-cover">
+          <div class="absolute top-4 right-4 px-3 py-1 rounded-full bg-black/80 backdrop-blur-md text-xs font-mono text-white/90 border border-white/10">
+            Київська обл., с. Козин
+          </div>
+        </div>
+        <div class="p-6 flex-1 flex flex-col justify-between">
+          <div>
+            <span class="text-xs font-mono text-shimmer uppercase tracking-wider font-semibold">ГІБРИДНА СЕС 15 кВт</span>
+            <h3 class="font-display font-bold text-xl text-white mt-1.5 mb-2">Котедж 280 м²</h3>
+            <p class="text-xs text-solar-muted leading-relaxed font-light">
+              Повна автономія будинку під час блекаутів до 36 годин. Запас АКБ 20 кВт·год. Економія витрат на електрику — 74% за рік.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-white/10 flex justify-between text-xs font-mono text-white/70">
+            <span>Обладнання:</span>
+            <span class="text-white font-medium">Deye + Jinko Tier-1</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Case 2 -->
+      <div class="rounded-3xl overflow-hidden glass-surface border border-white/10 hover-card flex flex-col">
+        <div class="h-56 relative overflow-hidden">
+          <img loading="lazy" decoding="async" width="1200" height="800" src="https://res.cloudinary.com/zzfwn8ye/image/upload/v1791998292/9319c233-b355-47fe-8ac4-771801b41eda.jpg" alt="Комерційна СЕС для автокомплексу" class="w-full h-full object-cover">
+          <div class="absolute top-4 right-4 px-3 py-1 rounded-full bg-black/80 backdrop-blur-md text-xs font-mono text-white/90 border border-white/10">
+            м. Львів
+          </div>
+        </div>
+        <div class="p-6 flex-1 flex flex-col justify-between">
+          <div>
+            <span class="text-xs font-mono text-shimmer uppercase tracking-wider font-semibold">КОМЕРЦІЙНА СЕС 45 кВт</span>
+            <h3 class="font-display font-bold text-xl text-white mt-1.5 mb-2">Автокомплекс та СТО</h3>
+            <p class="text-xs text-solar-muted leading-relaxed font-light">
+              Знижено споживання з міської мережі на 48 000 кВт·год/рік. Розрахунковий період окупності — 2.8 роки.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-white/10 flex justify-between text-xs font-mono text-white/70">
+            <span>Окупність:</span>
+            <span class="text-white font-medium">2.5 – 3.5 роки</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Case 3 -->
+      <div class="rounded-3xl overflow-hidden glass-surface border border-white/10 hover-card flex flex-col">
+        <div class="h-56 relative overflow-hidden">
+          <img loading="lazy" decoding="async" width="1200" height="800" src="https://res.cloudinary.com/zzfwn8ye/image/upload/v1791892529/Rooftop_solar_power_plant_instal__2K_20261013145514.jpg" alt="Дахова СЕС на логістичному складі" class="w-full h-full object-cover">
+          <div class="absolute top-4 right-4 px-3 py-1 rounded-full bg-black/80 backdrop-blur-md text-xs font-mono text-white/90 border border-white/10">
+            м. Дніпро
+          </div>
+        </div>
+        <div class="p-6 flex-1 flex flex-col justify-between">
+          <div>
+            <span class="text-xs font-mono text-shimmer uppercase tracking-wider font-semibold">ДАХОВА СЕС 120 кВт</span>
+            <h3 class="font-display font-bold text-xl text-white mt-1.5 mb-2">Логістичний склад 1800 м²</h3>
+            <p class="text-xs text-solar-muted leading-relaxed font-light">
+              Монтаж виконано за 8 днів на металопрофілі даху. Економія витрат на електрику для холодильних камер склала понад 610 000 грн за сезон.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-white/10 flex justify-between text-xs font-mono text-white/70">
+            <span>Обладнання:</span>
+            <span class="text-white font-medium">Huawei SUN2000</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========================================================================= -->
+  <!-- 10. FAQ SECTION                                                           -->
+  <!-- ========================================================================= -->
+  <section id="faq" class="w-full max-w-6xl mx-auto px-6 sm:px-10 py-8 sm:py-20">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 sm:gap-10 items-start">
+      <div class="lg:col-span-5">
+        <span class="text-xs font-mono uppercase tracking-widest text-shimmer block mb-3 font-semibold">/ FAQ</span>
+        <h2 class="font-display font-extrabold text-3xl sm:text-4xl text-white tracking-tight mb-4">
+          Часті запитання
+        </h2>
+        <p class="text-sm text-solar-muted font-light leading-relaxed mb-6">
+          Відповідаємо чесно на головні технічні та фінансові питання щодо сонячних електростанцій.
+        </p>
+        <a href="#contact" class="btn-secondary text-xs">
+          Запитати напряму інженера
+        </a>
+      </div>
+
+      <div class="lg:col-span-7 space-y-3">
+        <details open class="p-6 rounded-2xl glass-surface border border-white/10 group">
+          <summary class="flex justify-between items-center text-sm sm:text-base font-semibold text-white">
+            <span>Як формується вартість сонячної станції?</span>
+            <span class="faq-icon text-white/80 text-lg">+</span>
+          </summary>
+          <p class="text-xs sm:text-sm text-solar-muted font-light leading-relaxed mt-4">
+            Ціна залежить від потужності інвертора, площі даху та місткості акумуляторів. Ми надаємо відкритий кошторис із зазначенням кожної деталі. Фінальна сума фіксується в договорі та не збільшується під час монтажу. Орієнтовно: гібридні станції для дому від $4,200 (≈ 175 000 грн), системи резерву від $2,800 (≈ 116 000 грн); точну суму називаємо після виїзду інженера.
+          </p>
+        </details>
+
+        <details class="p-6 rounded-2xl glass-surface border border-white/10 group">
+          <summary class="flex justify-between items-center text-sm sm:text-base font-semibold text-white">
+            <span>Чи працюватиме станція під час відключень світла?</span>
+            <span class="faq-icon text-white/80 text-lg">+</span>
+          </summary>
+          <p class="text-xs sm:text-sm text-solar-muted font-light leading-relaxed mt-4">
+            Так, якщо встановлена гібридна або автономна СЕС з акумуляторами: живлення перемикається за 10 мс. Прості мережеві станції без батарей із міркувань безпеки автоматично вимикаються разом із міською мережею.
+          </p>
+        </details>
+
+        <details class="p-6 rounded-2xl glass-surface border border-white/10 group">
+          <summary class="flex justify-between items-center text-sm sm:text-base font-semibold text-white">
+            <span>Який реальний термін окупності для бізнесу?</span>
+            <span class="faq-icon text-white/80 text-lg">+</span>
+          </summary>
+          <p class="text-xs sm:text-sm text-solar-muted font-light leading-relaxed mt-4">
+            Завдяки високому комерційному тарифу на електроенергію станція під власне споживання повністю окупається за <strong>2.5 – 3.5 роки</strong>. Надалі підприємство користується власною енергією понад 20 років.
+          </p>
+        </details>
+
+        <details class="p-6 rounded-2xl glass-surface border border-white/10 group">
+          <summary class="flex justify-between items-center text-sm sm:text-base font-semibold text-white">
+            <span>Чи виробляють панелі струм взимку та в хмарну погоду?</span>
+            <span class="faq-icon text-white/80 text-lg">+</span>
+          </summary>
+          <p class="text-xs sm:text-sm text-solar-muted font-light leading-relaxed mt-4">
+            Так, сучасні монокристалічні панелі Half-Cell генерують навіть при розсіяному світлі (15–35% потужності). У морозні сонячні дні їхня ефективність навіть вища через відсутність перегріву елементів.
+          </p>
+        </details>
+
+        <details class="p-6 rounded-2xl glass-surface border border-white/10 group">
+          <summary class="flex justify-between items-center text-sm sm:text-base font-semibold text-white">
+            <span>Чи потрібні спеціальні дозволи на встановлення?</span>
+            <span class="faq-icon text-white/80 text-lg">+</span>
+          </summary>
+          <p class="text-xs sm:text-sm text-solar-muted font-light leading-relaxed mt-4">
+            Для власного споживання (без віддачі струму в загальну мережу) жодних ліцензій чи дозволів не потрібно. Якщо ви плануєте продаж залишків за програмою Net Billing — ми повністю беремо оформлення на себе.
+          </p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========================================================================= -->
+  <!-- 11. LEAD CONTACT FORM                                                     -->
+  <!-- ========================================================================= -->
+  <section id="contact" class="w-full max-w-6xl mx-auto px-6 sm:px-10 py-8 sm:py-20">
+    <div class="relative rounded-3xl overflow-hidden glass-surface border border-white/15 p-3 sm:p-14">
+      
+      <!-- Background Photo with Multi-Layer Dark Tint Scrim -->
+      <img loading="lazy" decoding="async" width="1200" height="800" src="https://res.cloudinary.com/zzfwn8ye/image/upload/v1791882537/%D0%A1%D0%BE%D0%BD%D1%8F%D1%87%D0%BD%D1%96_%D0%BF%D0%B0%D0%BD%D0%B5%D0%BB%D1%96_%D0%BD%D0%B0_%D0%B7%D0%B0%D1%85%D0%BE%D0%B4%D1%96_%D1%81%D0%BE%D0%BD%D1%86%D1%8F.png" 
+           alt="Сонячна станція на заході сонця" 
+           class="absolute inset-0 w-full h-full object-cover z-0 opacity-60 filter brightness-75 contrast-110 pointer-events-none">
+      
+      <!-- Vignette Scrim for Contrast -->
+      <div class="absolute inset-0 bg-gradient-to-r from-solar-black/95 via-solar-surface/90 to-solar-black/95 z-[1] pointer-events-none"></div>
+      
+      <!-- Tech Grid & Rose Ambient Glow -->
+      <div class="absolute inset-0 tech-grid opacity-25 z-[2] pointer-events-none"></div>
+      
+
+      <!-- Foreground Content -->
+      <div class="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-6 sm:gap-10 items-center">
+        <!-- Text & Coordinates -->
+        <div class="lg:col-span-6 px-[21px] pt-5 sm:p-0">
+          <span class="text-xs font-mono uppercase tracking-widest text-shimmer block mb-3 font-semibold">/ КОНСУЛЬТАЦІЯ</span>
+          <h2 class="font-display font-extrabold text-3xl sm:text-4xl text-white tracking-tight mb-4">
+            Отримайте безкоштовний проєкт і кошторис
+          </h2>
+          <p class="text-sm text-solar-muted font-light leading-relaxed mb-8">
+            Залиште контактні дані. Черговий інженер зв'яжеться з вами протягом 15 хвилин, зорієнтує за ціною та підготує розрахунок станції.
+          </p>
+
+          <div class="space-y-3.5 text-xs font-mono text-white/80">
+            <div class="flex items-center gap-3">
+              <span class="text-orange-400">📍</span>
+              <span>м. Київ, вул. Велика Васильківська, 72 (БЦ «Олімпійський»)</span>
+            </div>
+            <div class="flex items-center gap-3">
+              <span class="text-orange-400">📞</span>
+              <span>Дзвінки: <span class="whitespace-nowrap">+380 (73) 346-40-88</span><br>Viber / Telegram: <span class="whitespace-nowrap">+380 (98) 732-71-91</span></span>
+            </div>
+            <div class="flex items-center gap-3">
+              <span class="text-orange-400">✉️</span>
+              <span>info@solarline.ua</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Form Card (High Contrast Glass) -->
+        <div class="lg:col-span-6 p-5 sm:p-8 rounded-2xl bg-solar-surface/95 border border-white/15 backdrop-blur-xl shadow-2xl">
+          <form id="lead-form" method="post" action="#contact" onsubmit="handleFormSubmit(event)" class="space-y-4" novalidate>
+            <div class="hp-field" aria-hidden="true"><label>Не заповнюйте<input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+            <div>
+              <label for="f-name" class="block text-xs font-mono uppercase text-white/70 mb-2 font-medium">Ваше ім'я</label>
+              <input id="f-name" name="name" autocomplete="name" required type="text" placeholder="Олександр" class="w-full px-4 py-3 rounded-xl bg-black/60 border border-white/20 text-white text-sm placeholder-white/30">
+            </div>
+
+            <div>
+              <label for="f-phone" class="block text-xs font-mono uppercase text-white/70 mb-2 font-medium">Номер телефону</label>
+              <input id="f-phone" name="phone" autocomplete="tel" inputmode="tel" required type="tel" placeholder="+380 (99) 123-45-67" class="w-full px-4 py-3 rounded-xl bg-black/60 border border-white/20 text-white text-sm placeholder-white/30">
+            </div>
+
+            <div>
+              <label for="f-type" class="block text-xs font-mono uppercase text-white/70 mb-2 font-medium">Тип об'єкта</label>
+              <select id="f-type" name="object_type" class="w-full px-4 py-3 rounded-xl bg-black/90 border border-white/20 text-white text-sm">
+                <option value="house">Приватний будинок / Котедж</option>
+                <option value="business">Комерційний об'єкт / СТО / Склад</option>
+                <option value="production">Виробництво / Агросектор</option>
+                <option value="offgrid">Повна автономія без міської мережі</option>
+              </select>
+            </div>
+
+            <button type="submit" id="submit-btn" class="btn-white w-full py-4 text-center mt-2">
+              Отримати кошторис
+            </button>
+
+            <p class="text-xs text-white/60 text-center font-light mt-2">
+              Натискаючи кнопку, ви погоджуєтесь із конфіденційністю обробки персональних даних.
+            </p>
+
+            <div id="form-error" class="hidden p-4 rounded-xl bg-red-500/10 border border-red-500/30 text-red-300 text-xs text-center font-medium" role="alert">Не вдалося надіслати. Зателефонуйте нам: +380 (73) 346-40-88.</div>
+            <div id="form-success" role="status" class="hidden p-4 rounded-xl bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-xs text-center font-medium">
+              ✓ Дякуємо! Заявку прийнято. Інженер зв'яжеться з вами протягом 15 хвилин.
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========================================================================= -->
+  <!-- 12. FOOTER                                                                -->
+  <!-- ========================================================================= -->
+  </main>
+  <footer class="w-full bg-solar-black border-t border-white/10 pt-12 sm:pt-16 pb-0 text-xs font-mono text-white/65 overflow-hidden">
+    <div class="max-w-6xl mx-auto px-6 sm:px-10 grid grid-cols-2 md:grid-cols-12 gap-x-6 gap-y-8 sm:gap-10 mb-8 sm:mb-12">
+      <!-- Col 1: Brand & Socials -->
+      <div class="col-span-2 md:col-span-5">
+        <div class="flex items-center gap-2 mb-4">
+          <svg aria-hidden="true" focusable="false" class="w-5 h-5 text-white" viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="14" cy="14" r="5"></circle>
+            <path d="M14 2v4M14 22v4M2 14h4M22 14h4M5.5 5.5l2.8 2.8M19.7 19.7l2.8 2.8M5.5 22.5l2.8-2.8M19.7 8.3l2.8-2.8"></path>
+          </svg>
+          <span class="font-display font-bold text-base text-white">SolarLine</span>
+        </div>
+        <p class="text-xs text-solar-muted font-sans leading-relaxed mb-6 max-w-sm">
+          Інженерне проєктування та будівництво надійних сонячних електростанцій для приватного сектора та комерційних підприємств по всій Україні.
+        </p>
+
+        <!-- Social Media Buttons -->
+        <div class="flex items-center gap-3">
+          <a href="https://t.me/+380987327191" aria-label="Telegram" target="_blank" rel="noopener noreferrer" class="w-9 h-9 rounded-full glass-surface flex items-center justify-center text-white/70 hover:text-white hover:border-white/40 transition-all" title="Telegram" aria-label="Telegram">
+            <svg aria-hidden="true" focusable="false" class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21.5 2L2 9.5l7 3 2.5 7.5 4-4 5.5 3.5L21.5 2z"/></svg>
+          </a>
+          <a href="viber://chat?number=%2B380987327191" aria-label="Viber" class="w-9 h-9 rounded-full glass-surface flex items-center justify-center text-white/70 hover:text-white hover:border-white/40 transition-all" title="Viber" aria-label="Viber">
+            <svg aria-hidden="true" focusable="false" class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          </a>
+          <a href="https://instagram.com" aria-label="Instagram" target="_blank" rel="noopener noreferrer" class="w-9 h-9 rounded-full glass-surface flex items-center justify-center text-white/70 hover:text-white hover:border-white/40 transition-all" title="Instagram">
+            <svg aria-hidden="true" focusable="false" class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="https://facebook.com" aria-label="Facebook" target="_blank" rel="noopener noreferrer" class="w-9 h-9 rounded-full glass-surface flex items-center justify-center text-white/70 hover:text-white hover:border-white/40 transition-all" title="Facebook">
+            <svg aria-hidden="true" focusable="false" class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Col 2: Solutions -->
+      <div class="md:col-span-2 space-y-2.5">
+        <div class="text-white text-xs font-bold uppercase tracking-wider mb-4">Рішення</div>
+        <div><a href="#solutions" class="hover:text-white transition-colors">Для дому</a></div>
+        <div><a href="#solutions" class="hover:text-white transition-colors">Для бізнесу</a></div>
+        <div><a href="#solutions" class="hover:text-white transition-colors">Гібридні СЕС</a></div>
+        <div><a href="#calculator" class="hover:text-white transition-colors">Калькулятор</a></div>
+      </div>
+
+      <!-- Col 3: Company -->
+      <div class="md:col-span-2 space-y-2.5">
+        <div class="text-white text-xs font-bold uppercase tracking-wider mb-4">Компанія</div>
+        <div><a href="#why" class="hover:text-white transition-colors">Про нас</a></div>
+        <div><a href="#projects" class="hover:text-white transition-colors">Проєкти</a></div>
+        <div><a href="#process" class="hover:text-white transition-colors">Етапи робіт</a></div>
+        <div><a href="#faq" class="hover:text-white transition-colors">Питання-відповіді</a></div>
+      </div>
+
+      <!-- Col 4: Contacts & Address -->
+      <div class="col-span-2 md:col-span-3 space-y-2.5">
+        <div class="text-white text-xs font-bold uppercase tracking-wider mb-4">Контакти</div>
+        <div><span class="text-white/65">Дзвінки: </span><a href="tel:+380733464088" class="text-white hover:underline">+380 (73) 346-40-88</a></div>
+        <div><span class="text-white/65">Viber / Telegram: </span><a href="viber://chat?number=%2B380987327191" class="text-white hover:underline">+380 (98) 732-71-91</a></div>
+        <div><a href="mailto:info@solarline.ua" class="hover:text-white transition-colors">info@solarline.ua</a></div>
+        <div class="text-white/60 text-xs pt-1">
+          м. Київ, вул. Велика Васильківська, 72 (БЦ «Олімпійський»)
+        </div>
+      </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="max-w-6xl mx-auto px-6 sm:px-10 pt-8 border-t border-white/10 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs">
+      <div>© 2026 SolarLine. ТОВ «СоларЛайн Україна». Всі права захищено.</div>
+      <div class="flex gap-6">
+        <a href="#contact" class="hover:text-white transition-colors">Політика конфіденційності</a>
+        <a href="#contact" class="hover:text-white transition-colors">Публічна оферта</a>
+      </div>
+    </div>
+
+    <!-- Giant SolarLine Logo Watermark across full screen width -->
+    <div class="w-full overflow-hidden select-none pointer-events-none mt-6 sm:mt-10 flex justify-center items-end leading-none" aria-hidden="true">
+      <svg viewBox="0 0 1440 230" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full h-auto block select-none" focusable="false">
+        <defs>
+          <linearGradient id="solarlineGrad" x1="0" y1="0" x2="0" y2="100%">
+            <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.08" />
+            <stop offset="60%" stop-color="#FFFFFF" stop-opacity="0.04" />
+            <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.015" />
+          </linearGradient>
+        </defs>
+        <text x="50%" y="85%" text-anchor="middle" font-family="'Syne', sans-serif" font-weight="800" font-size="255" letter-spacing="-0.035em" fill="url(#solarlineGrad)">SolarLine</text>
+      </svg>
+    </div>
+  </footer>
+
+
+  <!-- ========================================================================= -->
+  <!-- 13. SCRIPT: Fully Interactive Calculator & Form Logic                     -->
+  <!-- ========================================================================= -->
+  <script>
+    // State of Calculator
+    let calcState = {
+      type: 'home',
+      power: 10,
+      withBattery: true
+    };
+
+    function recalculate() {
+      const power = calcState.power;
+      const withBattery = calcState.withBattery;
+      const isBusiness = (calcState.type === 'business');
+
+      document.querySelectorAll('.calc-pill').forEach(function(b){b.setAttribute('aria-pressed', b.classList.contains('active') ? 'true' : 'false');});
+      // 1. Inverter Power
+      const powerEl = document.getElementById('calc-power');
+      if (powerEl) powerEl.textContent = power + ' кВт';
+
+      // 2. Battery Storage
+      const batteryEl = document.getElementById('calc-battery');
+      if (batteryEl) {
+        if (!withBattery) {
+          batteryEl.textContent = 'Без АКБ';
+        } else {
+          let batteryKwh = isBusiness ? Math.round(power * 1.0) : Math.round(power * 1.3);
+          if (batteryKwh < 5) batteryKwh = 5;
+          batteryEl.textContent = batteryKwh + ' кВт·год';
+        }
+      }
+
+      // 3. Annual Generation (~1150 kWh / kWp for Ukraine)
+      const genEl = document.getElementById('calc-gen');
+      if (genEl) {
+        const yearlyGen = Math.round(power * 1150);
+        genEl.textContent = '~' + yearlyGen.toLocaleString('uk-UA') + ' кВт·год';
+      }
+
+      // 4. Price Calculation
+      const priceLabel = document.getElementById('calc-price-label');
+      const priceEl = document.getElementById('calc-price');
+      if (priceEl) {
+        let baseMin, baseMax;
+        if (isBusiness) {
+          if (withBattery) {
+            baseMin = Math.round(power * 440 + (power * 1.0) * 190 + 1500);
+            baseMax = Math.round(baseMin * 1.12);
+          } else {
+            baseMin = Math.round(power * 480 + 900);
+            baseMax = Math.round(baseMin * 1.14);
+          }
+        } else {
+          let batteryKwh = Math.round(power * 1.3);
+          if (batteryKwh < 5) batteryKwh = 5;
+
+          if (withBattery) {
+            baseMin = Math.round(power * 450 + batteryKwh * 200 + 1200);
+            baseMax = Math.round(baseMin * 1.12);
+          } else {
+            baseMin = Math.round(power * 520 + 800);
+            baseMax = Math.round(baseMin * 1.15);
+          }
+        }
+
+        window.__calcSummary = (isBusiness ? 'Бізнес' : 'Дім') + ', ' + power + ' кВт, ' + (withBattery ? 'з АКБ' : 'без АКБ') + ', орієнт. $' + baseMin + '–$' + baseMax;
+        const uahEl = document.getElementById('calc-price-uah'); if (uahEl) uahEl.textContent = '≈ ' + Math.round(baseMin * 41.5 / 1000) + ' – ' + Math.round(baseMax * 41.5 / 1000) + ' тис. грн (курс ≈ 41,5)';
+        priceEl.textContent = '$' + baseMin.toLocaleString('en-US') + ' – $' + baseMax.toLocaleString('en-US');
+      }
+    }
+
+    // Toggles
+    function setCalcType(type) {
+      calcState.type = type;
+      const btnHome = document.getElementById('btn-type-home');
+      const btnBiz = document.getElementById('btn-type-business');
+      const range = document.getElementById('power-range');
+      const bounds = document.getElementById('range-bounds');
+
+      if (type === 'business') {
+        if (btnBiz) btnBiz.className = 'calc-pill active py-3 px-4 rounded-xl border border-white/20 text-xs font-semibold text-white';
+        if (btnHome) btnHome.className = 'calc-pill py-3 px-4 rounded-xl border border-white/10 text-xs font-semibold text-white/65';
+        if (range && bounds) {
+          range.min = 10;
+          range.max = 500;
+          range.step = 10;
+          if (calcState.power < 10 || calcState.power > 500) calcState.power = 30;
+          range.value = calcState.power;
+          bounds.innerHTML = '<span>10 кВт</span><span>250 кВт</span><span>500 кВт</span>';
+        }
+      } else {
+        if (btnHome) btnHome.className = 'calc-pill active py-3 px-4 rounded-xl border border-white/20 text-xs font-semibold text-white';
+        if (btnBiz) btnBiz.className = 'calc-pill py-3 px-4 rounded-xl border border-white/10 text-xs font-semibold text-white/65';
+        if (range && bounds) {
+          range.min = 5;
+          range.max = 50;
+          range.step = 5;
+          if (calcState.power > 50) calcState.power = 10;
+          range.value = calcState.power;
+          bounds.innerHTML = '<span>5 кВт</span><span>25 кВт</span><span>50 кВт</span>';
+        }
+      }
+
+      const rangeVal = document.getElementById('range-val');
+      if (rangeVal) rangeVal.textContent = calcState.power + ' кВт';
+      recalculate();
+    }
+
+    function setBattery(withBattery) {
+      calcState.withBattery = withBattery;
+      const btnYes = document.getElementById('btn-battery-yes');
+      const btnNo = document.getElementById('btn-battery-no');
+
+      if (withBattery) {
+        if (btnYes) btnYes.className = 'calc-pill active py-3 px-4 rounded-xl border border-white/20 text-xs font-semibold text-white';
+        if (btnNo) btnNo.className = 'calc-pill py-3 px-4 rounded-xl border border-white/10 text-xs font-semibold text-white/65';
+      } else {
+        if (btnNo) btnNo.className = 'calc-pill active py-3 px-4 rounded-xl border border-white/20 text-xs font-semibold text-white';
+        if (btnYes) btnYes.className = 'calc-pill py-3 px-4 rounded-xl border border-white/10 text-xs font-semibold text-white/65';
+      }
+      recalculate();
+    }
+
+    function updateCalculator(val) {
+      calcState.power = parseInt(val, 10);
+      const rangeVal = document.getElementById('range-val');
+      if (rangeVal) rangeVal.textContent = val + ' кВт';
+      recalculate();
+    }
+
+    // Event Bindings
+    document.addEventListener('DOMContentLoaded', function() {
+      // Button listeners
+      const btnHome = document.getElementById('btn-type-home');
+      const btnBiz = document.getElementById('btn-type-business');
+      if (btnHome) btnHome.addEventListener('click', () => setCalcType('home'));
+      if (btnBiz) btnBiz.addEventListener('click', () => setCalcType('business'));
+
+      const btnYes = document.getElementById('btn-battery-yes');
+      const btnNo = document.getElementById('btn-battery-no');
+      if (btnYes) btnYes.addEventListener('click', () => setBattery(true));
+      if (btnNo) btnNo.addEventListener('click', () => setBattery(false));
+
+      // Slider listeners
+      const range = document.getElementById('power-range');
+      if (range) {
+        range.addEventListener('input', (e) => updateCalculator(e.target.value));
+        range.addEventListener('change', (e) => updateCalculator(e.target.value));
+      }
+
+      // Initial run
+      recalculate();
+    });
+
+    // Form: validation, phone mask, honeypot, optional endpoint
+    const FORM_ENDPOINT = ''; // TODO: ОБОВ'ЯЗКОВО вказати endpoint (Formspree / Make / власний бекенд) перед деплоєм; // e.g. https://formspree.io/f/xxxx  (empty = demo mode)
+
+    function phoneDigits(v) {
+      let d = v.replace(/\D/g, '');
+      if (d.startsWith('380')) d = d.slice(3); else if (d.startsWith('0')) d = d.slice(1);
+      return d.slice(0, 9);
+    }
+    function formatPhone(d) {
+      let o = '+380';
+      if (d.length) o += ' (' + d.slice(0, 2);
+      if (d.length >= 2) o += ')';
+      if (d.length > 2) o += ' ' + d.slice(2, 5);
+      if (d.length > 5) o += '-' + d.slice(5, 7);
+      if (d.length > 7) o += '-' + d.slice(7, 9);
+      return o;
+    }
+    function setFieldError(input, msg) {
+      const wrap = input.parentElement;
+      let er = wrap.querySelector('.field-error');
+      if (!er) { er = document.createElement('div'); er.className = 'field-error'; er.setAttribute('role', 'alert'); wrap.appendChild(er); }
+      er.textContent = msg || '';
+      wrap.classList.toggle('has-error', !!msg);
+      input.setAttribute('aria-invalid', msg ? 'true' : 'false');
+    }
+    document.addEventListener('DOMContentLoaded', function () {
+      const ph = document.getElementById('f-phone');
+      if (ph) {
+        ph.addEventListener('focus', function () { if (!ph.value) ph.value = '+380 ('; });
+        ph.addEventListener('input', function () { const d = phoneDigits(ph.value); ph.value = d.length ? formatPhone(d) : ''; setFieldError(ph, ''); });
+        ph.addEventListener('blur', function () { if (phoneDigits(ph.value).length === 0) ph.value = ''; });
+      }
+      const nm = document.getElementById('f-name');
+      if (nm) nm.addEventListener('input', function () { setFieldError(nm, ''); });
+    });
+
+    function handleFormSubmit(e) {
+      e.preventDefault();
+      const form = e.target;
+      const btn = document.getElementById('submit-btn');
+      const success = document.getElementById('form-success');
+      const fail = document.getElementById('form-error');
+      const name = document.getElementById('f-name');
+      const phone = document.getElementById('f-phone');
+      fail.classList.add('hidden');
+      let ok = true, first = null;
+      if (name.value.trim().length < 2) { setFieldError(name, 'Вкажіть ім\'я.'); ok = false; first = first || name; }
+      if (phoneDigits(phone.value).length !== 9) { setFieldError(phone, 'Введіть номер у форматі +380 (XX) XXX-XX-XX.'); ok = false; first = first || phone; }
+      if (!ok) { first.focus(); return; }
+      if (form.website && form.website.value) return; // honeypot
+
+      const payload = { name: name.value.trim(), phone: phone.value, object_type: form.object_type.value, calculator: window.__calcSummary || '' };
+      const label = btn.textContent;
+      btn.textContent = 'Відправляємо...'; btn.style.opacity = '0.7'; btn.disabled = true;
+
+      const done = function () { btn.style.display = 'none'; success.classList.remove('hidden'); form.reset(); };
+      const failed = function () { btn.textContent = label; btn.style.opacity = ''; btn.disabled = false; fail.classList.remove('hidden'); };
+      if (FORM_ENDPOINT) {
+        fetch(FORM_ENDPOINT, { method: 'POST', headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' }, body: JSON.stringify(payload) })
+          .then(function (r) { return r.ok ? done() : failed(); }).catch(failed);
+      } else { setTimeout(done, 700); }
+    }
+
+    // Mobile menu
+    document.addEventListener('DOMContentLoaded', function () {
+      const t = document.getElementById('menu-toggle'), m = document.getElementById('mobile-menu');
+      if (!t || !m) return;
+      function close() { m.classList.add('hidden'); t.setAttribute('aria-expanded', 'false'); }
+      t.addEventListener('click', function () { const open = m.classList.toggle('hidden') === false; t.setAttribute('aria-expanded', open ? 'true' : 'false'); });
+      m.querySelectorAll('a').forEach(function (a) { a.addEventListener('click', close); });
+      document.addEventListener('keydown', function (e) { if (e.key === 'Escape') close(); });
+      window.addEventListener('resize', function () { if (window.innerWidth >= 1024) close(); });
+    });
+
+    // Hero mosaic: tiles on the 80px grid reveal one continuous photo
+    (function () {
+      const U = 80, GAP = 3;
+      function rng(a) { return function () { a |= 0; a = a + 0x6D2B79F5 | 0; let t = Math.imul(a ^ a >>> 15, 1 | a); t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; }; }
+      // --- Tile animation (visual only: layout above is untouched). Intro: tiles appear one by one, then a few blink at random.
+      const M = { tiles: [], badgeRects: '', W: 0, H: 0, photo: null, t0: null, blink: {}, badges: [], raf: 0, last: 0, visible: true, nextBlink: 0, timer: 0 };
+      const REDUCE = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      const INTRO_SPAN = 1300, FADE_IN = 200, BLINK_DUR = 1000;
+      const easeOut = (t) => 1 - Math.pow(1 - t, 3);
+      function tileFactor(t, now) {
+        let f = 1;
+        if (M.t0 !== null) f = easeOut(Math.max(0, Math.min(1, (now - M.t0 - t.delay) / FADE_IN)));
+        const b = M.blink[t.k];
+        if (b) {
+          const p = (now - b) / BLINK_DUR;
+          if (p >= 1) delete M.blink[t.k]; else f *= 1 - 0.92 * Math.sin(Math.PI * p);
+        }
+        return f;
+      }
+      function renderMask(now) {
+        if (!M.photo) return;
+        let rects = '';
+        for (let i = 0; i < M.tiles.length; i++) {
+          const t = M.tiles[i], a = t.a * tileFactor(t, now);
+          if (a < 0.005) continue;
+          rects += '<rect x="' + (t.x + GAP / 2) + '" y="' + (t.y + GAP / 2) + '" width="' + (U - GAP) + '" height="' + (U - GAP) + '" rx="10" fill="#fff" fill-opacity="' + a.toFixed(2) + '"/>';
+        }
+        let badgeRects = '';
+        for (let i = 0; i < M.badges.length; i++) {
+          const b = M.badges[i], f = M.t0 === null ? 1 : easeOut(Math.max(0, Math.min(1, (now - M.t0 - b.delay) / FADE_IN)));
+          if (f < 0.005) continue;
+          badgeRects += '<rect x="' + (b.x + GAP / 2) + '" y="' + (b.y + GAP / 2) + '" width="' + (4 * U - GAP) + '" height="' + (U - GAP) + '" rx="10" fill="#fff" fill-opacity="' + f.toFixed(2) + '"/>';
+        }
+        const svg = '<svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="' + M.W + '" height="' + M.H + '" viewBox="0 0 ' + M.W + ' ' + M.H + '">' + rects + badgeRects + '</svg>';
+        const url = 'url("data:image/svg+xml,' + encodeURIComponent(svg) + '")';
+        M.photo.style.webkitMaskImage = url; M.photo.style.maskImage = url;
+      }
+      function active(now) {
+        return (M.t0 !== null && now - M.t0 < INTRO_SPAN + FADE_IN + 50) || Object.keys(M.blink).length > 0;
+      }
+      function frame(now) {
+        M.raf = 0;
+        if (now - M.last >= 33) { M.last = now; renderMask(now); }
+        if (M.visible && !document.hidden && window.innerWidth > 767 && active(now)) M.raf = requestAnimationFrame(frame);
+        else if (!active(now)) renderMask(now);
+      }
+      function kick() { if (!M.raf && !REDUCE) M.raf = requestAnimationFrame(frame); }
+      function scheduleBlink() {
+        clearTimeout(M.timer);
+        M.timer = setTimeout(function () {
+          const now = performance.now();
+          if (M.visible && !document.hidden && window.innerWidth > 767 && M.tiles.length && now - M.t0 > INTRO_SPAN + FADE_IN) {
+            const n = 3 + Math.floor(Math.random() * 2);
+            for (let i = 0; i < n; i++) { const t = M.tiles[Math.floor(Math.random() * M.tiles.length)]; if (!M.blink[t.k]) M.blink[t.k] = now + Math.random() * 250; }
+            kick();
+          }
+          scheduleBlink();
+        }, 1300 + Math.random() * 700);
+      }
+      function startAnim() {
+        if (REDUCE || M.t0 !== null) return;
+        M.t0 = performance.now();
+        scheduleBlink();
+        const hero = document.getElementById('top');
+        if ('IntersectionObserver' in window && hero) new IntersectionObserver(function (e) { M.visible = e[0].isIntersecting; if (M.visible) kick(); }).observe(hero);
+        document.addEventListener('visibilitychange', function () { if (!document.hidden) kick(); });
+      }
+      function build() {
+        const hero = document.getElementById('top'), host = document.getElementById('hero-mosaic');
+        if (!hero || !host) return;
+        const photo = host.querySelector('.photo');
+        const W = hero.offsetWidth, H = hero.offsetHeight;
+        const cols = Math.ceil(W / U), rows = Math.ceil(H / U);
+        const rand = rng(11);
+        const cell = {}; // key "c,r" (r counted from the bottom) -> alpha
+        const key = (c, r) => c + ',' + r;
+
+        // Mosaic band: a diagonal strip of tiles between two stepped contours (upper-right -> lower-left),
+        // thinned out into a scattered mosaic. Bottom rows fade tile by tile into the next section.
+        const FADE = [0.12, 0.3, 0.55, 0.8];
+        const LEFT = [[-0.05, 0.09], [0.061, 0.22], [0.171, 0.29], [0.249, 0.40], [0.276, 0.50], [0.337, 0.57], [0.42, 0.605], [0.514, 0.615], [0.58, 0.66], [0.646, 0.72], [0.856, 0.74], [0.94, 0.84], [1.2, 0.95]];
+        const RIGHT = [[-0.066, 0.57], [0.022, 0.70], [0.072, 0.78], [0.138, 0.89], [0.226, 0.93], [0.304, 1.0], [1.2, 1.0]];
+        function lerpLine(pts, f) {
+          if (f <= pts[0][0]) return pts[0][1];
+          for (let i = 1; i < pts.length; i++) if (f <= pts[i][0]) { const a = pts[i - 1], b = pts[i], k = (f - a[0]) / (b[0] - a[0]); return a[1] + (b[1] - a[1]) * k; }
+          return pts[pts.length - 1][1];
+        }
+        const lat = {};
+        const lv = (i, j) => { const k = i + ',' + j; if (!(k in lat)) lat[k] = rand(); return lat[k]; };
+        const sm = (t) => t * t * (3 - 2 * t);
+        function noise(x, y) {
+          const i = Math.floor(x), j = Math.floor(y), fx = sm(x - i), fy = sm(y - j);
+          return (lv(i, j) * (1 - fx) + lv(i + 1, j) * fx) * (1 - fy) + (lv(i, j + 1) * (1 - fx) + lv(i + 1, j + 1) * fx) * fy;
+        }
+        for (let c = 0; c < cols; c++) {
+          for (let r = 0; r < rows; r++) {
+            const u = (c + 0.5) * U / W, f = (r + 0.5) * U / H;
+            if (u <= lerpLine(LEFT, f) || u >= lerpLine(RIGHT, f)) continue;
+            const p = 0.3 + 0.5 * noise(c / 2.2, r / 2.2);
+            if (rand() > p) continue;
+            let a;
+            if (r < FADE.length) a = FADE[r];
+            else { a = 0.9 - rand() * 0.15; if (rand() < 0.15) a *= 0.7; }
+            cell[key(c, r)] = a;
+          }
+        }
+
+        // Keep the hero text clear: drop any tile that would touch a text block (measured from the real layout)
+        const hr = hero.getBoundingClientRect(), PAD = 20, boxes = [];
+        const cont = hero.querySelector(':scope > .z-10');
+        if (cont) Array.prototype.forEach.call(cont.children, function (ch) {
+          const b = ch.getBoundingClientRect();
+          boxes.push({ l: b.left - hr.left - PAD, t: b.top - hr.top - PAD, r: b.right - hr.left + PAD, b: b.bottom - hr.top + PAD });
+        });
+        Object.keys(cell).forEach(function (k) {
+          const q = k.split(','), x0 = +q[0] * U, y0 = H - (+q[1] + 1) * U;
+          for (let i = 0; i < boxes.length; i++) {
+            const bx = boxes[i];
+            if (x0 < bx.r && x0 + U > bx.l && y0 < bx.b && y0 + U > bx.t) { delete cell[k]; break; }
+          }
+        });
+
+        // No long solid runs: at most 4 tiles in a row
+        for (let r = 0; r < rows; r++) {
+          let run = 0;
+          for (let c = 0; c < cols; c++) {
+            if (cell[key(c, r)] !== undefined) { run++; if (run > 4) { delete cell[key(c, r)]; run = 0; } } else run = 0;
+          }
+        }
+
+        // Hand-picked extra tiles (columns counted from the right edge, rows from the bottom)
+        [[16, 10], [16, 9], [17, 11], [17, 9], [14, 8], [15, 8], [15, 7], [15, 5], [15, 2], [17, 2]].forEach(function (q) {
+          const c = cols - 18 + q[0], r = q[1];
+          if (c < 0 || c >= cols || r >= rows) return;
+          cell[key(c, r)] = r < FADE.length ? FADE[r] : 0.85 - rand() * 0.1;
+        });
+        if (W < 768) Object.keys(cell).forEach(function (k) {
+          const q = k.split(','), x0 = +q[0] * U, y0 = H - (+q[1] + 1) * U;
+          for (let i = 0; i < boxes.length; i++) {
+            const bx = boxes[i];
+            if (x0 < bx.r && x0 + U > bx.l && y0 < bx.b && y0 + U > bx.t) { delete cell[k]; break; }
+          }
+        });
+
+        // Two info badges replace photo tiles (4x1 cells), placed inside the first screen
+        const BADGES = W >= 768 ? [
+          { c: cols - 8, r: 4, k: 'Економія витрат', v: 'до 70% на рахунках', icon: '<path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>' },
+          { c: cols - 4, r: Math.min(6, rows - 3), k: 'Швидкість резерву', v: '&lt; 10 мс перемикання', icon: '<circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/>' }
+        ] : [];
+        host.querySelectorAll('.mosaic-badge').forEach(function (n) { n.remove(); });
+        BADGES.forEach(function (b) { b.c = Math.max(0, Math.min(b.c, cols - 4)); for (let i = 0; i < 4; i++) delete cell[key(b.c + i, b.r)]; });
+
+        let rects = '';
+        const rect = (x, y, w, h, a) => '<rect x="' + (x + GAP / 2) + '" y="' + (y + GAP / 2) + '" width="' + (w - GAP) + '" height="' + (h - GAP) + '" rx="10" fill="#fff" fill-opacity="' + a.toFixed(2) + '"/>';
+        const tiles = [];
+        Object.keys(cell).forEach(function (k) {
+          const p = k.split(','), c = +p[0], r = +p[1];
+          tiles.push({ k: k, x: c * U, y: H - (r + 1) * U, a: cell[k], score: (H - (r + 1) * U) / U + ((c * 7 + r * 13) % 5) * 0.2 });
+        });
+        tiles.sort(function (a, b) { return a.score - b.score; });
+        tiles.forEach(function (t, i) { t.delay = tiles.length > 1 ? i / (tiles.length - 1) * INTRO_SPAN : 0; });
+        const badgeList = [];
+        BADGES.forEach(function (b) {
+          const x = b.c * U, y = H - (b.r + 1) * U;
+          const delay = Math.max(0, Math.min(1, y / H)) * INTRO_SPAN;
+          badgeList.push({ x: x, y: y, delay: delay });
+          const el = document.createElement('div');
+          el.className = 'mosaic-badge';
+          el.style.cssText = 'left:' + (x + GAP / 2) + 'px;top:' + (y + GAP / 2) + 'px;width:' + (4 * U - GAP) + 'px;height:' + (U - GAP) + 'px';
+          el.innerHTML = '<span class="bi"><svg aria-hidden="true" focusable="false" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">' + b.icon + '</svg></span><span><div class="bk">' + b.k + '</div><div class="bv">' + b.v + '</div></span>';
+          host.appendChild(el);
+          const remain = REDUCE ? 0 : (M.t0 === null ? delay : delay - (performance.now() - M.t0));
+          if (remain > 0) {
+            el.style.opacity = '0';
+            setTimeout(function () { el.style.opacity = ''; if (el.animate) el.animate([{ opacity: 0 }, { opacity: 1 }], { duration: FADE_IN * 2, easing: 'ease-out' }); }, remain);
+          }
+        });
+        M.tiles = tiles; M.badges = badgeList; M.badgeRects = rects; M.W = W; M.H = H; M.photo = photo;
+        const first = M.t0 === null;
+        if (first) startAnim();
+        renderMask(performance.now());
+        host.classList.add('is-ready');
+        if (first) kick();
+      }
+      let tm;
+      function schedule() { clearTimeout(tm); tm = setTimeout(build, 120); }
+      window.addEventListener('resize', schedule);
+      if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', build); else build();
+      window.addEventListener('load', build);
+      if (document.fonts && document.fonts.ready) document.fonts.ready.then(build);
+    })();
+  </script>
+
+
+<script>
+/* Metrics: cards appear one by one (easeOut, 0.5s apart) when the section enters the viewport; each number counts up as its card appears */
+(function () {
+  var els = document.querySelectorAll('[data-count]');
+  if (!els.length) return;
+  var grid = els[0].closest('.grid') || els[0].parentNode;
+  var INTERVAL = 500, FADE = 800, COUNT = 1500;
+  function fmt(el, v) {
+    var d = parseInt(el.getAttribute('data-decimals') || '0', 10);
+    return (el.getAttribute('data-prefix') || '') + v.toFixed(d) + (el.getAttribute('data-suffix') || '');
+  }
+  function setNum(el, f) { el.textContent = fmt(el, parseFloat(el.getAttribute('data-count')) * f); }
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (reduce || !('IntersectionObserver' in window) || !Element.prototype.animate) { els.forEach(function (el) { setNum(el, 1); }); return; }
+  var items = Array.prototype.map.call(els, function (el) { return { num: el, card: el.closest('.hover-card') || el.parentNode }; });
+  items.forEach(function (it) { it.card.style.opacity = '0'; setNum(it.num, 0); });
+  function reveal(it) {
+    it.card.style.opacity = '';
+    it.card.animate([{ opacity: 0, transform: 'translateY(24px)' }, { opacity: 1, transform: 'none' }], { duration: FADE, easing: 'ease-out' });
+    var t0 = null;
+    function step(t) {
+      if (t0 === null) t0 = t;
+      var p = Math.min((t - t0) / COUNT, 1);
+      setNum(it.num, 1 - Math.pow(1 - p, 3));
+      if (p < 1) requestAnimationFrame(step); else setNum(it.num, 1);
+    }
+    requestAnimationFrame(step);
+  }
+  var io = new IntersectionObserver(function (entries) {
+    if (!entries.some(function (e) { return e.isIntersecting; })) return;
+    io.disconnect();
+    items.forEach(function (it, i) { setTimeout(function () { reveal(it); }, i * INTERVAL); });
+  }, { threshold: 0.2 });
+  io.observe(grid);
+})();
+</script>
+
+<script>
+/* Hero entrance: every element rises in with a soft blur-in (fade-up), one after another. Only opacity/transform/blur are animated. */
+(function () {
+  var box = document.querySelector('#top .z-10');
+  if (!box) return;
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (reduce || !box.animate) return;
+  var pill = box.children[0], h1 = box.querySelector('h1'), p = box.querySelector('p');
+  var btns = p && p.nextElementSibling, pts = btns && btns.nextElementSibling;
+  var seq = [[pill, 150, -16], [h1, 450, 28], [p, 1150, 24], [btns, 1310, 24]];
+  if (pts) Array.prototype.forEach.call(pts.children, function (c, i) { seq.push([c, 1500 + i * 130, 16]); });
+  seq.forEach(function (x) { if (x[0]) x[0].style.opacity = '0'; });
+  var EASE = 'cubic-bezier(0.22, 1, 0.36, 1)';
+  function play(el, dy, dur) {
+    el.style.opacity = '';
+    el.animate([
+      { opacity: 0, transform: 'translateY(' + dy + 'px)', filter: 'blur(8px)' },
+      { opacity: 1, transform: 'none', filter: 'blur(0)' }
+    ], { duration: dur || 800, easing: EASE });
+  }
+  seq.forEach(function (x) { if (x[0]) setTimeout(function () { play(x[0], x[2], x[1] === 450 ? 1000 : 800); }, x[1]); });
+  setTimeout(function () { // failsafe: never leave anything hidden
+    seq.forEach(function (x) { if (x[0]) x[0].style.opacity = ''; });
+  }, 6000);
+})();
+</script>
+
+<script>
+/* Hero background glows: slowly drift and breathe on their own, and glide toward the cursor (parallax, eased). Uses the individual `translate` property so the existing Tailwind transforms are untouched. */
+(function () {
+  var hero = document.getElementById('top');
+  var layer = hero && hero.querySelector(':scope > .z-0');
+  if (!layer) return;
+  var blobs = layer.querySelectorAll(':scope > div:not(:first-child)');
+  if (blobs.length < 2) return;
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (reduce) return;
+  var base = [0.75, 0.6];
+  // cfg: [follow x, follow y (px at the edge), drift x, drift y, speed, phase]
+  var cfg = [[360, 170, 70, 40, 0.00035, 0], [-220, -90, 90, 30, 0.00028, 2.1]];
+  var target = { x: 0, y: 0 }, cur = [{ x: 0, y: 0 }, { x: 0, y: 0 }], visible = true, raf = 0;
+  function onMove(e) {
+    var r = hero.getBoundingClientRect();
+    if (e.clientY < r.top - 80 || e.clientY > r.bottom + 80) { target.x = 0; target.y = 0; return; }
+    target.x = Math.max(-0.5, Math.min(0.5, (e.clientX - r.left) / r.width - 0.5)) * 2;
+    target.y = Math.max(-0.5, Math.min(0.5, (e.clientY - r.top) / r.height - 0.5)) * 2;
+  }
+  window.addEventListener('pointermove', onMove, { passive: true });
+  document.documentElement.addEventListener('pointerleave', function () { target.x = 0; target.y = 0; });
+  if ('IntersectionObserver' in window) new IntersectionObserver(function (e) { visible = e[0].isIntersecting; if (visible && !raf) raf = requestAnimationFrame(tick); }).observe(hero);
+  function tick(t) {
+    raf = 0;
+    for (var i = 0; i < 2; i++) {
+      var c = cfg[i], k = cur[i];
+      k.x += (target.x * c[0] - k.x) * 0.06;
+      k.y += (target.y * c[1] - k.y) * 0.06;
+      var dx = Math.sin(t * c[4] + c[5]) * c[2], dy = Math.cos(t * c[4] * 1.3 + c[5]) * c[3];
+      blobs[i].style.translate = (k.x + dx).toFixed(1) + 'px ' + (k.y + dy).toFixed(1) + 'px';
+      blobs[i].style.opacity = (base[i] * (0.9 + 0.1 * Math.sin(t * c[4] * 2 + c[5]))).toFixed(3);
+    }
+    if (visible && !document.hidden) raf = requestAnimationFrame(tick);
+  }
+  document.addEventListener('visibilitychange', function () { if (!document.hidden && visible && !raf) raf = requestAnimationFrame(tick); });
+  raf = requestAnimationFrame(tick);
+})();
+</script>
+
+<script>
+/* Custom cursor: .dot follows exactly, .ring follows with lerp (0.12); ring scales x2 over links/buttons. */
+(function () {
+  if (!window.matchMedia || !window.matchMedia('(hover: hover) and (pointer: fine)').matches) return;
+  var root = document.documentElement;
+  var dot = document.createElement('div'); dot.className = 'cursor-dot'; dot.setAttribute('aria-hidden', 'true');
+  var ring = document.createElement('div'); ring.className = 'cursor-ring'; ring.setAttribute('aria-hidden', 'true');
+  document.body.appendChild(ring); document.body.appendChild(dot);
+  root.classList.add('has-custom-cursor');
+  var targetX = -100, targetY = -100, currentX = -100, currentY = -100, raf = 0, shown = false;
+  var LINKS = 'a, button, summary, [role="button"], input[type="range"], .cursor-pointer', FIELDS = 'input:not([type="range"]), textarea, select';
+  function setOn(on) { shown = on; dot.classList.toggle('is-on', on); ring.classList.toggle('is-on', on); }
+  window.addEventListener('pointermove', function (e) {
+    if (e.pointerType && e.pointerType !== 'mouse' && e.pointerType !== 'pen') return;
+    targetX = e.clientX; targetY = e.clientY;
+    dot.style.transform = 'translate3d(' + targetX + 'px,' + targetY + 'px,0)';
+    var t = e.target && e.target.closest ? e.target : null;
+    var field = t && t.closest(FIELDS);
+    if (!shown && !field) { currentX = targetX; currentY = targetY; }
+    setOn(!field); // native text cursor stays visible over form fields
+    ring.classList.toggle('is-hover', !!(t && t.closest(LINKS)));
+    if (!raf) raf = requestAnimationFrame(tick);
+  }, { passive: true });
+  window.addEventListener('scroll', function () {
+    if (!shown) return;
+    var el = document.elementFromPoint(targetX, targetY);
+    ring.classList.toggle('is-hover', !!(el && el.closest(LINKS)));
+  }, { passive: true });
+  document.documentElement.addEventListener('pointerleave', function () { setOn(false); });
+  window.addEventListener('blur', function () { setOn(false); });
+  function tick() {
+    raf = 0;
+    currentX += (targetX - currentX) * 0.12;
+    currentY += (targetY - currentY) * 0.12;
+    ring.style.transform = 'translate3d(' + currentX.toFixed(2) + 'px,' + currentY.toFixed(2) + 'px,0)';
+    if (Math.abs(targetX - currentX) > 0.1 || Math.abs(targetY - currentY) > 0.1) raf = requestAnimationFrame(tick);
+  }
+})();
+</script>
+
+<script>
+/* Scroll reveals (run once per block as it enters the viewport). Headings: fade-up + blur-in. Card grids: staggered fade-up.
+   Images: clip-path wipe + slow zoom-out. Calculator / FAQ / form columns: slide in from the sides. Footer: staggered columns. */
+(function () {
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (reduce || !('IntersectionObserver' in window) || !Element.prototype.animate) return;
+  var EASE = 'cubic-bezier(0.22, 1, 0.36, 1)';
+  var $ = function (r, sel) { return r ? r.querySelector(sel) : null; };
+  var $$ = function (r, sel) { return r ? Array.prototype.slice.call(r.querySelectorAll(sel)) : []; };
+  var main = document.getElementById('main') || document;
+  var secs = $$(main, 'section');
+  var byText = function (t) { return secs.filter(function (s) { return s.textContent.indexOf(t) > -1 && !s.closest('.curved-bridge'); })[0]; };
+  var sec4 = byText('АКТУАЛЬНІСТЬ'), solutions = document.getElementById('solutions'), calc = document.getElementById('calculator'),
+      process = document.getElementById('process'), why = document.getElementById('why'), projects = document.getElementById('projects'),
+      faq = document.getElementById('faq'), contact = document.getElementById('contact'), footer = document.querySelector('footer');
+
+  // unit = { el, x, y, blur, dur, clip, delay }
+  function U(el, o) { o = o || {}; return el ? { el: el, x: o.x || 0, y: o.y === undefined ? 24 : o.y, blur: o.blur || 0, dur: o.dur || 800, clip: o.clip || null, delay: o.delay || 0 } : null; }
+  // heading block: expand a wrapper into its eyebrow / title / text
+  function headUnits(row) {
+    if (!row) return [];
+    var out = [];
+    Array.prototype.forEach.call(row.children, function (c) {
+      if (c.classList.contains('absolute')) return;
+      var kids = Array.prototype.filter.call(c.children, function (k) { return !k.classList.contains('absolute'); });
+      if (kids.length > 1 && kids.length <= 4 && !c.matches('[class*="p-"]') && !c.matches('[class*="grid"]')) kids.forEach(function (k) { out.push(U(k, { y: 22, blur: 8 })); });
+      else out.push(U(c, { y: 22, blur: 8 }));
+    });
+    return out;
+  }
+  function cards(list, step, o) { return list.map(function (el, i) { var u = U(el, o); u.delay = i * (step || 120); return u; }); }
+
+  function run(trigger, units, step, extra) {
+    units = units.filter(Boolean);
+    if (!trigger || !units.length) return;
+    units.forEach(function (u) { u.el.style.opacity = '0'; if (u.clip) u.el.style.clipPath = u.clip[0]; });
+    var io = new IntersectionObserver(function (es) {
+      if (!es.some(function (e) { return e.isIntersecting; })) return;
+      io.disconnect();
+      units.forEach(function (u, i) {
+        setTimeout(function () {
+          u.el.style.opacity = ''; u.el.style.clipPath = '';
+          var from = { opacity: 0, transform: 'translate(' + u.x + 'px,' + u.y + 'px)' }, to = { opacity: 1, transform: 'none' };
+          if (u.blur) { from.filter = 'blur(' + u.blur + 'px)'; to.filter = 'blur(0)'; }
+          if (u.clip) { from.clipPath = u.clip[0]; to.clipPath = u.clip[1]; }
+          u.el.animate([from, to], { duration: u.dur, easing: EASE });
+        }, u.delay + (step ? i * step : 0));
+      });
+      if (extra) extra();
+    }, { threshold: 0, rootMargin: '0px 0px -8% 0px' });
+    io.observe(trigger);
+  }
+  function zoom(img, delay, from, dur) { if (img && img.animate) setTimeout(function () { img.animate([{ transform: 'scale(' + (from || 1.18) + ')' }, { transform: 'scale(1)' }], { duration: dur || 1600, easing: EASE }); }, delay || 0); }
+
+  // 4. "Актуальність": heading row, then the wide photo wipes in from below
+  if (sec4) {
+    var row4 = $(sec4, ':scope > .relative.z-10.flex'), pic4 = $(sec4, ':scope > .rounded-3xl');
+    run(row4 || sec4, headUnits(row4), 110);
+    if (pic4) run(pic4, [U(pic4, { y: 40, dur: 1400 })], 0, function () { zoom($(pic4, 'img'), 0, 1.07, 2200); });
+  }
+  // 5. Solutions
+  if (solutions) {
+    var rowS = $(solutions, ':scope > .relative.z-10.flex');
+    run(rowS || solutions, headUnits(rowS), 110);
+    var gridS = $(solutions, ':scope > .grid');
+    if (gridS) run(gridS, cards($$(gridS, ':scope > *'), 150, { y: 36 }), 0);
+  }
+  // 6. Calculator: left column slides in from the left, panel from the right
+  if (calc) {
+    var cols = $$(calc, '.lg\\:col-span-6');
+    if (cols.length) run(cols[0].parentNode, [U(cols[0], { x: -48, y: 0, dur: 1000 }), U(cols[1], { x: 48, y: 0, dur: 1000, delay: 150 })], 0);
+  }
+  // 7. Process: heading only (cards are staggered by their own script)
+  if (process) { var hd = $(process, ':scope > div:first-child'); run(hd || process, headUnits({ children: hd ? [hd] : [] }), 110); }
+  if (process) { var gp = $(process, ':scope > .grid'); if (gp) run(gp, cards($$(gp, ':scope > *'), 130, { y: 30 }), 0); }
+  // 8. Why SolarLine: photo wipes in from the left, title and 4 cards follow
+  if (why) {
+    var pic = $(why, '.lg\\:col-span-5'), right = $(why, '.lg\\:col-span-7');
+    if (pic) run(pic, [U(pic, { x: 0, y: 0, dur: 1100, clip: ['inset(0 100% 0 0 round 24px)', 'inset(0 0% 0 0 round 24px)'] })], 0, function () { zoom($(pic, 'img'), 0); });
+    if (right) {
+      var t = $(right, 'h2'), g = $(right, '.grid');
+      run(right, [U(t, { y: 22, blur: 8 })].concat(g ? cards($$(g, ':scope > *'), 130, { y: 30 }).map(function (u) { u.delay += 220; return u; }) : []), 0);
+    }
+  }
+  // 9. Cases: heading, three cards with image zoom
+  if (projects) {
+    var rowP = $(projects, ':scope > .flex');
+    run(rowP || projects, headUnits(rowP), 110);
+    var gridP = $(projects, ':scope > .grid');
+    if (gridP) { var cs = $$(gridP, ':scope > *'); run(gridP, cards(cs, 160, { y: 40, dur: 900 }), 0, function () { cs.forEach(function (c, i) { zoom($(c, 'img'), i * 160); }); }); }
+  }
+  // 10. FAQ: heading from the left, questions slide in one by one
+  if (faq) {
+    var l = $(faq, '.lg\\:col-span-5'), r = $(faq, '.lg\\:col-span-7');
+    run(faq, headUnits({ children: l ? [l] : [] }).concat(cards($$(r, ':scope > details'), 110, { x: 36, y: 0 }).map(function (u) { u.delay += 150; return u; })), 0);
+  }
+  // 11. Contact: text and form slide in from both sides
+  if (contact) {
+    var cl = $(contact, '.lg\\:col-span-6'), cr = $(contact, '.lg\\:col-span-6:last-child');
+    var rowC = $(contact, '.relative.z-10.grid');
+    var kids = rowC ? Array.prototype.slice.call(rowC.children) : [];
+    run(rowC || contact, [U(kids[0], { x: -48, y: 0, dur: 1000 }), U(kids[1], { x: 48, y: 0, dur: 1000, delay: 150 })], 0);
+  }
+  // 12. Footer: columns rise one after another, then the legal row and the giant wordmark
+  if (footer) {
+    var top = $(footer, ':scope > .grid'), bar = $(footer, ':scope > .border-t, :scope > div:nth-of-type(2)'), mark = $(footer, ':scope > .select-none');
+    var fu = top ? cards(Array.prototype.slice.call(top.children), 110, { y: 26 }) : [];
+    if (bar) { var ub = U(bar, { y: 16 }); ub.delay = 480; fu.push(ub); }
+    if (mark) { var um = U(mark, { y: 60, dur: 1400 }); um.delay = 620; fu.push(um); }
+    run(footer, fu, 0);
+  }
+})();
+</script>
+
+<script>
+(function () {
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (reduce || !Element.prototype.animate) return;
+  var EASE = 'cubic-bezier(0.22, 1, 0.36, 1)';
+
+  /* FAQ: answers open and close smoothly (height + text fade); native <details> semantics and keyboard support are kept */
+  Array.prototype.forEach.call(document.querySelectorAll('#faq details'), function (d) {
+    var sum = d.querySelector('summary'), icon = d.querySelector('.faq-icon'), body = Array.prototype.slice.call(d.children).filter(function (c) { return c !== sum; });
+    if (!sum) return;
+    var anim = null, closing = false;
+    var peers = Array.prototype.slice.call(document.querySelectorAll('#faq details'));
+    // backdrop blur is re-sampled on every frame while cards move: switch it off for the duration of the animation
+    function lite(on) { peers.forEach(function (x) { x.style.backdropFilter = on ? 'none' : ''; x.style.webkitBackdropFilter = on ? 'none' : ''; }); }
+    function collapsedH() {
+      var cs = getComputedStyle(d);
+      return sum.offsetHeight + parseFloat(cs.paddingTop) + parseFloat(cs.paddingBottom) + parseFloat(cs.borderTopWidth) + parseFloat(cs.borderBottomWidth);
+    }
+    function finish() {
+      lite(false);
+      if (closing) d.open = false;
+      d.style.height = ''; d.style.overflow = '';
+      if (icon) { icon.style.transform = ''; icon.style.color = ''; }
+      anim = null;
+    }
+    sum.addEventListener('click', function (e) {
+      e.preventDefault();
+      var from = d.offsetHeight, wasRunning = !!anim;
+      if (anim) { anim.onfinish = null; anim.cancel(); anim = null; }
+      var willClose = wasRunning ? !closing : d.open;
+      closing = willClose;
+      d.style.overflow = 'hidden';
+      lite(true);
+      var to;
+      if (willClose) {
+        to = collapsedH();
+        if (icon) { icon.style.transform = 'rotate(0deg)'; icon.style.color = ''; }
+      } else {
+        d.open = true;
+        if (icon) { icon.style.transform = ''; icon.style.color = ''; }
+        d.style.height = ''; to = d.offsetHeight;
+      }
+      anim = d.animate([{ height: from + 'px' }, { height: to + 'px' }], { duration: 420, easing: EASE });
+      anim.onfinish = finish; anim.oncancel = function () {};
+      body.forEach(function (b) {
+        b.animate(willClose ? [{ opacity: 1 }, { opacity: 0 }] : [{ opacity: 0, transform: 'translateY(-6px)' }, { opacity: 1, transform: 'none' }],
+          { duration: willClose ? 220 : 420, easing: 'ease-out', fill: 'backwards' });
+      });
+    });
+  });
+
+  /* Footer wordmark: endless slow horizontal loop. The word simply repeats with no gap: SolarLineSolarLine... */
+  var svg = document.querySelector('footer svg[viewBox="0 0 1440 230"]');
+  var base = svg && svg.querySelector('text');
+  if (svg && base && svg.animate) {
+    var started = false, SPEED = 45; // viewBox units per second
+    var build = function () {
+      if (started) return;
+      var w = base.getComputedTextLength ? base.getComputedTextLength() : 0;
+      if (!w || w < 100) return;
+      started = true;
+      var n = Math.ceil(1440 / w) + 2, g = document.createElementNS('http://www.w3.org/2000/svg', 'g'), x0 = (1440 - w) / 2;
+      for (var i = -1; i < n; i++) {
+        var t = base.cloneNode(true);
+        t.setAttribute('text-anchor', 'start'); t.setAttribute('x', x0 + i * w);
+        g.appendChild(t);
+      }
+      svg.style.overflow = 'hidden';
+      base.parentNode.replaceChild(g, base);
+      var a = g.animate([{ transform: 'translateX(0)' }, { transform: 'translateX(' + (-w) + 'px)' }], { duration: w / SPEED * 1000, iterations: Infinity, easing: 'linear' });
+      if ('IntersectionObserver' in window) new IntersectionObserver(function (es) { if (es[0].isIntersecting) a.play(); else a.pause(); }).observe(svg);
+    };
+    (document.fonts && document.fonts.ready ? document.fonts.ready : Promise.resolve()).then(function () { requestAnimationFrame(build); });
+    setTimeout(build, 2500);
+  }
+})();
+</script>
+</body>
+</html>
